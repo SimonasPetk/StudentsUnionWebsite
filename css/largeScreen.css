@@ -1,0 +1,13 @@
+@media screen and (min-width: 1024px){
+    nav{
+        float: right;
+        margin-top: -5%;
+        margin-left: 30%;
+    }
+    
+    #Logo{
+        width: 20%;
+        margin-left: 2%;
+    }
+    
+}

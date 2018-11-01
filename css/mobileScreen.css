@@ -1,0 +1,5 @@
+@media(max-width: 400px){
+    nav a{
+        font-size: 1em;
+    }
+}
