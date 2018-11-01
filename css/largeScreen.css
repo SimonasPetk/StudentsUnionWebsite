@@ -1,13 +1,17 @@
-@media screen and (min-width: 1024px){
+@media (min-width: 1024px){
+    
+    
+    #logo{
+        margin-left: 0;
+    }
+    
+    .flex-Nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    
     nav{
-        float: right;
-        margin-top: -5%;
-        margin-left: 30%;
+        margin-top: 7%;
     }
-    
-    #Logo{
-        width: 20%;
-        margin-left: 2%;
-    }
-    
 }
