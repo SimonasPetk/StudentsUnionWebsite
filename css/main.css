@@ -62,11 +62,15 @@ body, html {
     color: white;
 }
 
-<<<<<<< HEAD
 
 #wrapperEatingOptions{
     color: white;
     background-color: black;
+    
+}
+
+#wrapperEatingOptions a{
+    text-decoration: none;
 }
 
 #slogan{
@@ -78,27 +82,85 @@ body, html {
     font-size: 4em;
     background-color: #4B0000;
     padding-bottom: 5%;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(255,255,255,0) 100%)
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(255,255,255,0) 100%);
+
+    
+
     
 }
 
 #heart{
     display: flex;
     justify-content: center;
-    
     width: 15vw;
     height:15vw;
     margin-top: 0%;
     margin-left: auto;
     margin-right: auto;
+   
 }
+
+
+
+#eatImg1, #eatImg2, #eatImg3, #eatImg4{
+    display: flex;
+    margin: auto;
+    width: 30%;
+    
+}
+
+#eatImg2, #eatImg3{
+    margin-bottom: -8%;
+}
+
+
+#eatImg4{
+    width: 20%;
+    margin-top: 10%;
+}
+
+
+#eatingOptions p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2% 5%;
+    text-align: center;
+    font-size: 2vw;
+    
+}
+
+.follow{
+    background: white;
+    width: 30vw;
+    margin: auto;
+    border-radius: 50px;
+    padding: 0.5%;
+    color: black;
+    font-size: 4vw;
+    margin-top: 2%;
+    
+}
+#eatingOptions a:hover{
+    color:white;
+    background: grey;
+    
+}
+
+
+
+
+
+
 
 #checkOut{
     display: flex;
     justify-content: center;
     font-size: 3vw;
+    margin-top: 5%;
+    
 }
-=======
+
 .iconsFirst, .iconsSecond {
     float: left;
     width: 25%;
@@ -146,4 +208,4 @@ body, html {
     border-radius: 10px;
     border-color: rgb(240,240,240);
 }
->>>>>>> 74a3aab93abf201f58add9e8883ac0796585462b
+
