@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta charset = "UTF-8">
+<title>Contact Form</title>
+<meta name = "author" content = "Simonas Petkevicius">
+<link rel = "stylesheet" href = "css/normalize.css">
+<link rel = "stylesheet" href = "css/header.css">
+<link rel = "stylesheet" href = "css/contact.css">
+</head>
+
+<body>
+	<header class = "navigation-bar">
+     
+        <a href = "index.html"><img id = "logo" src = "images/COM1008Logo.png"></a>
+        <nav>
+            <a id = "firstNav" href = "">Featured</a>
+            <a href = "">About</a>    
+            <a href = "contact.html">Contact us</a>
+        </nav>
+    </header>
+
+    <section id = "information">
+        <h2> Don't Hesitate to Contact Us </h2>
+        <p> You can contact us via email or the contact form below </p>
+
+    </section>
+
+    <section class="body">
+		<form method="post" action="contact.php">
+        
+    		<label>Name</label>
+    		<input name="name" placeholder="Type Here">
+            
+    		<label>Email</label>
+    		<input name="email" type="email" placeholder="Type Here">
+            
+    		<label>Message</label>
+   			<textarea name="message" placeholder="Type Here"></textarea>
+            
+    		<input id="submit" name="submit" type="submit" value="Submit">
+		</form>    
+	</section>
+
+    <footer class="body">
+    </footer>
+
+
+</body>
+
+</html>

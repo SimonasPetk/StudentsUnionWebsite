@@ -4,37 +4,47 @@
 <html>
 <head>
     <meta charset = "UTF-8">
+    <title>Sheffield Student's Union</title>
     <meta name = "author" content = "Manas">
     <meta name = "author" content = "Simonas Petkevicius">
     <link rel = "stylesheet" href = "css/main.css">
     <link rel = "stylesheet" href = "css/normalize.css">
     <link rel = "stylesheet" href = "css/header.css">
+    <!link rel = "stylesheet" href = "css/mobileScreen.css">
+    <!link rel = "stylesheet" href = "css/largeScreen.css">
+    
 </head>
 
 <body>
     <header class = "navigation-bar">
      
-        <a href = "index.html"><img id = "logo" src = "images/COM1008Logo.png"></a>
+        <a href = "index.html">
+            <img id = "logo" alt = "Students Union Logo" src = "images/COM1008Logo.png">
+        </a>
+
         <nav>
             <a id = "firstNav" href = "">Featured</a>
+            <div class = "featuredMore">
+            <a id = "More1" href = ""></a>
+            <a id = "More2" href = ""></a>    
+            </div>
             <a href = "">About</a>    
-            <a href = "">Contact us</a>
+            <a href = "contact.html">Contact us</a>
         </nav>
     </header>
     
-    
-    
+
     <div class = "bg">
         <p id = "featured1">The #1 Students' Union in the UK since 2009.</p>
         <p id = "featured2">The complete Computer Science Undergraduate guide</p>
-        <a id = "learnmore" href= "">Learn more</a>
+        <a id = "learnmore" href= "">Start Exploring</a>
     </div>
     <section id = "featuredIcons">
 
         <div class = "iconsFirst"> 
             <h2>Great Place to Study</h2>
             <img src = "images/studying.png" alt = "Round icon on studying" class = "centre">
-            <p>There are plenty of study places for sole or group learning.</p>
+            <p>There are plenty of study places for solo or group learning.</p>
         </div>
 
         <div class = "iconsFirst">
@@ -51,7 +61,7 @@
 
         <div class = "iconsSecond"> 
             <h2>Great Place to Eat Out</h2>
-            <img src = "images/eatingOut.png" alt = "Round icon on eating options" class = "centre">
+            <a href = "EatingOptions.html"><img src = "images/eatingOut.png" alt = "Round icon on eating options" class = "centre"></a>
             <p>It does not matter if you are a vegan, vegetarian or paleo, you  will find a place to eat.</p>
         </div>
     </section>
@@ -85,5 +95,5 @@
 
     </footer>    
 </body>  
->>>>>>> 74a3aab93abf201f58add9e8883ac0796585462b
+
 </html>

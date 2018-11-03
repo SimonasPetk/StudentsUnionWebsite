@@ -1,3 +1,15 @@
+
+
+#navArrow1,  #navArrow2{
+    margin-left: 100%;
+    margin-top:-22%;
+    width: 3vw;
+    height: 0.5vw;
+    background: black;
+    border-radius: 50px;
+    
+}
+
 nav{
     width: 60%;
     display: flex;

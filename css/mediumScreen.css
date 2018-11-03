@@ -1,11 +1,11 @@
-@media(min-width: 700px) and{
+@media(min-width: 300px) and{
     nav{
         margin-top: 7%;
         margin-left:40%;
     }
     
     nav a{
-        font-size: 1.5em;
+        font-size: 10%;
     }
     
     #Logo{

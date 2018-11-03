@@ -1,22 +1,18 @@
 @media (min-width: 1024px){
-    
-    
-    .flex-Nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    .bg{
+    width:100%;
+    height: 700px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(255,255,255,0) 100%), url("../images/HomeFeatured.jpg");
 
-    }
-    
-    nav{
-        margin-top: 7%;
-        margin-top: 0%;
-    }
-    
-    #featured1{
-        display: flex;
-        justify-content: center;
-        margin-top: -20%;
-        padding-top: 10%;
-    }
 }
+    
+    
+    .iconsFirst, .iconsSecond {
+        width: 50%;
+    }
+
+}
+
