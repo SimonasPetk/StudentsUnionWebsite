@@ -8,11 +8,23 @@
     background-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(255,255,255,0) 100%), url("../images/HomeFeatured.jpg");
 
 }
+    nav{
+        margin-top: 4%;
+        margin-bottom: 0px;
+    }
     
+    #logo{
+        width: 12%;
+    }
+    
+    nav a{
+        font-size: 1.5vw;
+    }
     
     .iconsFirst, .iconsSecond {
         width: 50%;
     }
+    
 
 }
 

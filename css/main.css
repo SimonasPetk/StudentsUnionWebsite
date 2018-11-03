@@ -70,8 +70,8 @@ body, html {
 
 
 #wrapperEatingOptions{
-    color: white;
-    background-color: black;
+    color: Black;
+    background-color: #daecf2;
     
 }
 
@@ -84,11 +84,9 @@ body, html {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    padding-top: 5%;
+    padding-top: 0%;
     font-size: 4em;
-    background-color: #4B0000;
     padding-bottom: 5%;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%);
 
     
 
@@ -98,13 +96,13 @@ body, html {
 #heart{
     display: flex;
     justify-content: center;
-    width: 15vw;
-    height:15vw;
-    margin-top: 0%;
+    width: 300px;
+    height:300px;
+    margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
     transition: transform .3s ease;
-   
+    margin-bottom: 1%;
 }
 
 #heart:hover{
@@ -112,32 +110,16 @@ body, html {
 }
 
 
-#eatImg1, #eatImg2, #eatImg3, #eatImg4{
+.eatImages{
     display: flex;
     margin: auto;
-    width: 30%;
+    width: 300px;
     transition: transform .3s;
     
 }
 
 
-
-#eatImg4{
-    width: 20%;
-    margin-top: 5%;
-}
-
-#eatImg1:hover{
-    transform: scale(1.25);
-}
-
-#eatImg2:hover{
-    transform: scale(1.25);
-}
-#eatImg3:hover{
-    transform: scale(1.25);
-}
-#eatImg4:hover{
+.eatImages:hover{
     transform: scale(1.25);
 }
 
@@ -153,15 +135,18 @@ body, html {
 }
 
 .follow{
-    background: white;
-    width: 30vw;
-    margin: auto;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2% 5%;
+    text-align: center;
+    font-size: 1em;
+    width: 225px;
     border-radius: 50px;
-    padding: 0.5%;
     color: black;
-    font-size: 4vw;
     margin-top: 2%;
     margin-bottom: 5%;
+    margin: auto;
     
 }
 #eatingOptions a:hover{
@@ -178,9 +163,11 @@ body, html {
 
 #checkOut{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    font-size: 3.3vw;
-    margin-top: 5%;
+    padding: 2% 5%;
+    text-align: center;
+    font-size: 3em;
     
 }
 
