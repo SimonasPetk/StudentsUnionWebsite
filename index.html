@@ -9,13 +9,14 @@
     <link rel = "stylesheet" href = "css/main.css">
     <link rel = "stylesheet" href = "css/normalize.css">
     <link rel = "stylesheet" href = "css/header.css">
-    <!link rel = "stylesheet" href = "css/mobileScreen.css">
+    <link rel = "stylesheet" href = "css/mobileScreen.css">
     <link rel = "stylesheet" href = "css/largeScreen.css">
+    <link rel = "stylesheet" href = "css/footer.css">
     
 </head>
 
 <body>
-    <header class = "navigation-bar">
+    <header class = "header">
      
         <a href = "index.html">
             <img id = "logo" alt = "Students Union Logo" src = "images/COM1008Logo.png">
@@ -70,29 +71,33 @@
             <h2>How to Find Sheffield Student's Union</h2>
             <!--The div element for the map -->
             <div id="map"></div>
-            <script>
-                // Initialize and add the map
-                function initMap() {
-                    // The location of Sheffield Student's union
-                    var studentsUnion = {lat: 53.38072, lng: -1.4871329999999716};
-                    // The map, centered at Sheffield Student's union
-                    var map = new google.maps.Map(
-                    document.getElementById('map'), {zoom: 17, center: studentsUnion});
-
-                    //add text and info about SU later google maps info window
-
-                    // The marker, positioned at Sheffield Student's union
-                    var marker = new google.maps.Marker({position: studentsUnion, map: map});
-                }
-            </script>
-
+            <script src="js/googleMap.js"></script> 
             <script async defer
-                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmaQud_gsQz8NOm1qYqeUbMMjRK_xHCpo&callback=initMap">
+                             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmaQud_gsQz8NOm1qYqeUbMMjRK_xHCpo&callback=initMap">
             </script>
-        </section>
-        <footer>
-            <p>https://www.iconfinder.com/iconsets/round-varieties *fix this later*</p>
 
+
+        </section>
+        <footer class = "footer">
+            <div class = "footerSectionWrapper">
+                <div class = "flexSections">  
+                    <div id = "footerFirst">
+                        <p> Icon Attribution </p>
+                        </br>
+                        <p> Photo Attribution </p>
+                    </div>
+                    <div id = "footerSecond">
+                        <h5> Contact </h5>
+                        <p> spetkevicius1@sheffield.ac.uk</p>
+                        <p> Phone Number </p>
+                        <div id = "Social icons"> 
+
+                        <!--  Import social links to SU  -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
     </div>
 </body>  
