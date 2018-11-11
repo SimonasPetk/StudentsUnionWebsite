@@ -6,12 +6,10 @@
 
 /*Applying font to the whole page*/
 body, html {
-    scroll-behavior: smooth;
     font-family: "Comfortaa", sans-serif;
     height:100%;
     margin:0;
 }
-    
 
 body, html{
      font-family: "Comfortaa", sans-serif;

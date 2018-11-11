@@ -41,6 +41,7 @@
         <a href = "contact.html">About</a>
         </nav>
     </header>
+
       <div id = "wrapperContact">
          <section id = "developers">
             <h2> About the Developers of This Website</h2>
@@ -96,5 +97,36 @@
             </div>
          </footer>
       </div>
-   </body>
+
+     
+        
+
+    <div id = "wrapperContact">
+        <section id = "information">
+            <h2> Don't Hesitate to Contact Us </h2>
+            <p> You can contact us via email or the contact form below </p>
+        </section>
+
+        <section class="body">
+            <form method="post" action="contact.php">
+
+                <label>Name</label>
+                <input name="name" placeholder="Type Here">
+
+                <label>Email</label>
+                <input name="email" type="email" placeholder="Type Here">
+
+                <label>Message</label>
+                <textarea name="message" placeholder="Type Here"></textarea>
+
+                <input id="submit" name="submit" type="submit" value="Submit">
+            </form>    
+        </section>
+
+        <footer class="body">
+        </footer>
+    </div>
+
+</body>
+
 </html>

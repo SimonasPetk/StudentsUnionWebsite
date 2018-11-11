@@ -1,90 +1,78 @@
 /*Applying font to the whole page*/
- @font-face{
-     font-family: Comfortaa;
-     src : url(../fonts/comfortaa.regular.ttf);
+@font-face{
+    font-family: Comfortaa;
+    src : url(../fonts/comfortaa.regular.ttf);
 }
- body, html {
-     font-family: "Comfortaa", sans-serif;
-     height:100%;
-     margin:0;
+
+body, html {
+    font-family: "Comfortaa", sans-serif;
+    height:100%;
+    margin:0;
+    
 }
- #developers h2 {
-     padding: 20px 0 0 0;
-     margin: 0;
+
+#wrapperContact{
+    background-color: #daecf2;
+    height: 100%;
 }
- #wrapperContact{
-     background-color: #daecf2;
-     height: 100%;
+
+#information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
 }
- #developers {
-     text-align: center;
-}
- #flexContact {
-     display: flex;
-     align-items: center;
-     flex-direction: column;
-}
- .about p, h4 {
-     margin: 2%;
-}
- .about .aboutText{
-     margin: 5px 10%;
-     align-items: center;
-     text-align: justify;
-}
- #contactUs{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     text-align: center;
-     padding-top: 30px;
-     margin: 0;
-}
- #contactUs p, #contactUs h2{
-     padding: 0 0 20px 0;
-     margin: 0;
-}
+
 /* Labels are representen in a block from top to bottom */
- label {
-     display:block;
-     padding-top:20px;
-     letter-spacing: 2px;
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
 }
+
+/* Centre the page */
+.body {
+    display:block;
+    margin:0 auto;
+    width:576px;
+}
+
 /* Centre the form within the page */
- form {
-     margin:0 auto;
-     width:459px;
+form {
+    margin:0 auto;
+    width:459px;
 }
+
 /* Style the text boxes */
- input, textarea {
-     width:439px;
-     height:27px;
-     background:white;
-     border:1px solid #dedede;
-     padding:10px;
-     margin-top:3px;
-     font-size:0.9em;
-     border-color: rgb(211, 211, 211);
-     border-radius:5px;
+input, textarea {
+    width:439px;
+    height:27px;
+    background:white;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
 }
- textarea {
-     height: 100px 
+
+/* when user selects the elements it creates a subtle blue border*/
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
 }
-/* when someone selects the form field it creates a silver border*/
- input:focus, textarea:focus {
-     border: 2px;
-     border-style: solid;
-     border-color: rgb(192, 192, 192);
+
+#submit {
+    width:127px;
+    height:38px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    color: black;
 }
- #submit {
-     width:127px;
-     height:38px;
-     border:solid;
-     text-align: center;
-     margin-top:20px;
-     cursor:pointer;
-     color: black;
-}
- #submit:hover {
-     opacity:.9;
+
+#submit:hover {
+	opacity:.9;
 }
