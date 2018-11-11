@@ -1,5 +1,19 @@
 /*---------------------------------------------------------------*/
 /*Styles for eating options*/
+
+/*Setting the font READ ABOUT THIS https://blog.fontspring.com/2011/02/the-new-bulletproof-font-face-syntax*/
+ @font-face{
+     font-family: Comfortaa;
+     src : url(../fonts/comfortaa.regular.ttf);
+}
+/*Applying font to the whole page*/
+ body, html {
+     font-family: "Comfortaa", sans-serif;
+     height: 100%;
+     margin: 0;
+}
+
+
 /*Background color and font color*/
  #wrapperEatingOptions{
      color: Black;
