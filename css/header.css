@@ -1,15 +1,14 @@
 
-
 nav{
-    width: 60%;
+    width: 50%;
     display: flex;
     float: right;
-    margin-top: 5%;
     
 }
 
 .logo{
-    width: 20%;
+    width: 35vw;
+    margin: 0 0 0 35%;
 }
 
 
@@ -19,7 +18,7 @@ nav a{
     flex-direction: row;
     color: grey;
     text-align: center;
-    font-size: 2vw;
+    font-size: 3vw;
     text-decoration:none;
     padding: 2%;
     border-radius: 50px;
@@ -28,12 +27,82 @@ nav a{
 }
 
 nav a:hover{
-    background-color:#3a3a3a;
-    opacity: 0.5;
-    color: white;
+    color: #c4c4c4;
     text-align: center;
     padding: 2%;
     margin: auto;
-    margin-top: -5%;
+    margin-top: -5%; 
     border-radius: 50px;
 }
+
+
+ navbar {
+   overflow: hidden;
+   background-color: #333;
+   font-family: Arial;
+ }
+
+ .navDropdown{
+     position: relative;
+     margin: 2% 0 0 30%;
+     
+ }
+
+ #logo{
+     width: 50vw;
+     margin: 0 0 0 25%;
+     
+ }
+
+
+ nav{
+     display: none;
+ }
+
+ #hamburger{
+     position: absolute;
+     width: 7%;
+     margin: 8% 0% 0% 5%;
+     
+     
+ }
+
+ .navMobDropdown{
+     position: relative;
+     padding: 0% 5% 0% 5%;;
+         
+     }
+
+ .mobDropdown-content{
+     display: none;
+     position: absolute;
+     background-color: #e6e6e6;
+     box-shadow: 2px 2px 25px;
+     margin: 15% 0 0 2%;
+     font-size: 3vw;
+     padding: 3% 5%;
+     z-index: 1;
+     border-radius: 20px;
+     }
+
+ .mobDropdown-content a{
+     width: 100%;
+     text-decoration: none;
+     text-align: center;
+     display: flex;
+     padding: 5% 0 0 5%;
+     flex-direction: column;
+     justify-content: center;
+     color: black;
+ }
+
+     
+ .navMobDropdown:hover .mobDropdown-content {
+         display: block;
+
+ }
+
+ .mobDropdown-content a:hover{
+     color: #9c9c9c;
+ }
+

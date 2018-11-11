@@ -14,32 +14,53 @@
         <link rel = "stylesheet" href = "css/largeScreen.css">
     </head>
     <body>
-        <header class = "header">
-            <a href = "index.html">
-            <img class = "logo" alt = "Students Union Logo" src = "images/COM1008Logo.png">
-            </a>
-            <nav>
-                <a id = "firstNav" href = "">Featured</a>
-                <div class = "featuredMore">
-                    <a id = "More1" href = ""></a>
-                    <a id = "More2" href = ""></a>    
-                </div>
-                <a href = "">About</a>    
-                <a href = "contact.html">Contact us</a>
-            </nav>
+
+        <header class = "navigation-bar">
+         <div class = "navMobDropdown">
+             <img id = "hamburger" src = "/images/Hamburger.png">
+             <div class = "mobDropdown-content">
+                 <a href = "index.html">Home</a>
+                 <a href = "EatingOptions.html">Food @SU</a>
+                 <a href = "">Events</a>
+                 <a href = "">Support</a>  
+                 <a href = "contact.html">About Us</a>
+             </div>
+         </div>
+         <a href = "index.html">
+             <img id = "logo" alt = "Students Union Logo" src = "images/COM1008Logo.png">
+         </a>
+
+         <nav>
+             <div class = "navDropdown">
+                 <a>More</a>
+                 <div class = "dropdown-content">
+                     <a href = "index.html">Home</a>
+                     <a href = "EatingOptions.html">Food @SU</a>
+                     <a href = "">History of SU</a>
+                     <a href = "">Support</a>    
+                 </div>
+                
+             </div>
+             <a href = "contact.html">About</a>
+                
+             
+        </nav>
         </header>
+            
         <div id = "wrapperMain">
             <div class = "bg">
                 <p id = "featured1">The #1 Students' Union in the UK since 2009.</p>
                 <p id = "featured2">The complete Computer Science Undergraduate guide</p>
                 <a id = "learnmore" href="#featuredIcons">Start Exploring</a>
             </div>
-            <section id = "featuredIcons">
+            <section id = "featuredIcons"> 
+                <p id = "hangOut">Why hang out at Students Union?</p>
                 <div class = "iconsFirst">
                     <h2>Great Place to Study</h2>
                     <img src = "images/studying.png" alt = "Round icon on studying" class = "centre">
                     <p>There are plenty of study places for solo or group learning.</p>
                 </div>
+                 
                 <div class = "iconsFirst">
                     <h2>Great Place to Chill</h2>
                     <img src = "images/leisure.png" alt = "Round icon on leisure" class = "centre">

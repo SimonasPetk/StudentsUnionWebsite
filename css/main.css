@@ -8,6 +8,7 @@
      font-family: "Comfortaa", sans-serif;
      height: 100%;
      margin: 0;
+     scroll-behavior: smooth;
 }
  #wrapperMain{
      background-color: #daecf2;
@@ -42,6 +43,15 @@
      text-align: center;
      letter-spacing: 4px;
 }
+
+#hangOut{
+     margin: auto;
+     text-align: center;
+     font-size: 3em;
+     padding: 2%;
+ }
+
+
 /*Learn more button*/
  #learnmore {
      display: flex;
