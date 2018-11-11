@@ -5,16 +5,22 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+<<<<<<< HEAD
     background-image: url("../images/Home-Featured.jpg");
 
     }
+=======
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(255,255,255,0) 100%), url("../images/HomeFeatured.jpg");
+    }
+    
+>>>>>>> de746bb64bb6a99d9195b609dd27bf684c76af65
     nav{
         display: flex;
         margin: 1% 0 0 20%;
         
     }
     
-    #logo{
+    .logo{
         width: 12%;
         margin: 0 0 0 0;
     }

@@ -8,10 +8,15 @@ nav{
     
 }
 
+<<<<<<< HEAD
 #logo{
     width: 35vw;
     margin: 0 0 0 35%;
     
+=======
+.logo{
+    width: 20%;
+>>>>>>> de746bb64bb6a99d9195b609dd27bf684c76af65
 }
 
 

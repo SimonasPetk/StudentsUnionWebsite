@@ -1,23 +1,28 @@
-/*Setting the font*/
-@font-face{
-    font-family: Comfortaa;
-    src : url(../fonts/comfortaa.regular.ttf);
+/*Setting the font READ ABOUT THIS https://blog.fontspring.com/2011/02/the-new-bulletproof-font-face-syntax*/
+ @font-face{
+     font-family: Comfortaa;
+     src : url(../fonts/comfortaa.regular.ttf);
 }
-
 /*Applying font to the whole page*/
+<<<<<<< HEAD
 body, html {
     scroll-behavior: smooth;
     font-family: "Comfortaa", sans-serif;
     height:100%;
     margin:0;
     
+=======
+ body, html {
+     font-family: "Comfortaa", sans-serif;
+     height: 100%;
+     margin: 0;
+>>>>>>> de746bb64bb6a99d9195b609dd27bf684c76af65
 }
-
-#wrapperMain{
-    background-color: #daecf2;
+ #wrapperMain{
+     background-color: #daecf2;
 }
-
 /*Adding background image with a gradient which would cover the entire screen*/
+<<<<<<< HEAD
 .bg{
     width:100%;
     height: 700px; 
@@ -54,23 +59,54 @@ body, html {
     letter-spacing: 4px;
 }
 
-/*Learn more button*/
-#learnmore {
-    display: flex;
-    width: 250px;
-    font-size: 1.5em;
-    background: #d64d4d;
-    text-decoration: none;
-    color: Black;
-    justify-content: center;
-    text-align: center;
-    border-radius: 230px;
-    padding: 1% 0;
-    margin: auto;
-    margin-top: 10%
+=======
+ .bg{
+     width: 100%;
+     height: 700px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(255,255,255,0) 100%), url("../images/HomeFeatured-min.jpg");
 }
-
+/*Styles applied to tagline*/
+ #featured1{
+     padding: 5% 5% 0 5%;
+     color: white;
+     display: flex;
+     font-size: 4em;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+     margin: 0;
+}
+ #featured2{
+     margin-top: 3%;
+     color:white;
+     display: flex;
+     font-size: 2em;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+     letter-spacing: 4px;
+}
+>>>>>>> de746bb64bb6a99d9195b609dd27bf684c76af65
+/*Learn more button*/
+ #learnmore {
+     display: flex;
+     width: 250px;
+     font-size: 1.5em;
+     background: #d64d4d;
+     text-decoration: none;
+     color: Black;
+     justify-content: center;
+     text-align: center;
+     border-radius: 230px;
+     padding: 1% 0;
+     margin: auto;
+     margin-top: 10% 
+}
 /*button effect for learnmore*/
+<<<<<<< HEAD
 #learnmore:hover{
     background: #ce3737;
     color: White;
@@ -129,13 +165,47 @@ body, html {
 @media screen and (max-width: 1300px) {
     .iconsFirst, .iconsSecond {
         width: 50%;
+=======
+ #learnmore:hover{
+     background: #ce3737;
+     color: White;
+}
+ .iconsFirst, .iconsSecond {
+     float: left;
+     width: 25%;
+     text-align: center;
+}
+/* Clear floats after the columns */
+ #featuredIcons:after {
+     content: "";
+     display: table;
+     clear: both;
+}
+ #featuredIcons {
+     margin: 10px 2% 10px 2%;
+}
+ .centre {
+     display: block;
+     margin: auto;
+     width: 50%;
+     max-width: 120px;
+     max-height: 120px;
+     transition: transform .3s;
+}
+ .centre:hover{
+     transform: scale(1.25);
+}
+ @media screen and (max-width: 1300px) {
+     .iconsFirst, .iconsSecond {
+         width: 50%;
+>>>>>>> de746bb64bb6a99d9195b609dd27bf684c76af65
     }
-} 
-
-@media screen and (max-width: 650px) {
-    .iconsFirst, .iconsSecond {
-        width: 100%;
+}
+ @media screen and (max-width: 650px) {
+     .iconsFirst, .iconsSecond {
+         width: 100%;
     }
+<<<<<<< HEAD
 } 
 
 #findUS h2 {
@@ -232,3 +302,19 @@ body, html {
 
 
 
+=======
+}
+ #findUS {
+     text-align: center;
+}
+ #map {
+     height: 400px;
+    /* The height is 400 pixels */
+     width: 99%;
+    /* The width is 99% of the width of the web page */
+     margin: auto;
+     border-style: solid;
+     border-radius: 10px;
+     border-color: rgb(240,240,240);
+}
+>>>>>>> de746bb64bb6a99d9195b609dd27bf684c76af65

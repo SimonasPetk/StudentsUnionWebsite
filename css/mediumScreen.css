@@ -1,15 +1,14 @@
-@media(min-width: 300px) and{
-    nav{
-        margin-top: 7%;
-        margin-left:40%;
+@media(min-width: 770px) {
+   
+    .flexSections{
+
+        flex-direction: row;
     }
-    
-    nav a{
-        font-size: 10%;
-    }
-    
-    #Logo{
-        width: 40%;
-        margin: auto;
-    }
+
+    #flexContact {
+
+   		flex-direction: row;
+	}
+
+	
 }
