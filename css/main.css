@@ -6,6 +6,7 @@
 
 /*Applying font to the whole page*/
 body, html {
+    scroll-behavior: smooth;
     font-family: "Comfortaa", sans-serif;
     height:100%;
     margin:0;
@@ -23,7 +24,8 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(255,255,255,0) 100%), url("../images/HomeFeatured-min.jpg");
+    background-image: url("../images/Home-Featured-min.jpg");
+   
 
 }
 
@@ -43,7 +45,7 @@ body, html {
 
 #featured2{
     margin-top: 3%;
-    color:white;
+    color: white;
     display: flex;
     font-size: 2em;
     justify-content: center;
@@ -82,6 +84,16 @@ body, html {
     text-align: center;
 }
 
+#hangOut{
+    margin: auto;
+    text-align: center;
+    font-size: 3em;
+    padding: 2%;
+}
+
+#featuredIcons p{
+    font-size: 2em;    
+}
 /* Clear floats after the columns */
 #featuredIcons:after {
     content: "";
@@ -90,8 +102,14 @@ body, html {
 }
 
 #featuredIcons {
-    margin: 10px 2% 10px 2%;
+    margin: 20px 2% 20px 2%;
 }
+
+#featuredIcons h2{
+    font-size: 2em;
+}
+
+
 
 .centre {
     display: block;
@@ -103,8 +121,10 @@ body, html {
 }
 
 .centre:hover{
-    transform: scale(1.25);
+    transform: scale(1.1);
 }
+
+
 
 @media screen and (max-width: 1300px) {
     .iconsFirst, .iconsSecond {
@@ -120,6 +140,7 @@ body, html {
 
 #findUS h2 {
     text-align: center;
+    font-size: 2em;
 }
 #map {
     height: 400px;  /* The height is 400 pixels */
@@ -137,45 +158,28 @@ body, html {
 /*Styles for eating options*/
 
 /*Background color and font color*/
-#wrapperEatingOptions{
+.EatingOptions{
     color: Black;
     background-color: #daecf2;
     
 }
 
 /*de-styling Links in the page*/
-#wrapperEatingOptions a{
+.EatingOptions a{
     text-decoration: none;
 }
 
-/*Catchy tagling*/
-#slogan{
+
+/*Check out tag*/
+#checkOut{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding: 5% 5%;
+    margin: 0% auto auto 0%;
     text-align: center;
-    justify-content: center;
-    padding-top: 0%;
-    font-size: 4em;
-    padding-bottom: 5%;
-
-}
-
-/*styles for heart icon*/
-#heart{
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    height:300px;
-    margin-top: 0%;
-    margin-left: auto;
-    margin-right: auto;
-    transition: transform .3s ease;
-    margin-bottom: 0%;
-}
-
-/*Transition effect for heart*/
-#heart:hover{
-    transform: scale(1.25);
+    font-size: 3em;
+    
 }
 
 /*Setting style for eating options*/
@@ -189,11 +193,11 @@ body, html {
 
 /*Transition for eating options images*/
 .eatImages:hover{
-    transform: scale(1.25);
+    transform: scale(1.1);
 }
 
 /*Eating options info*/
-#eatingOptions p{
+.EatingOptions p{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -208,7 +212,7 @@ body, html {
      display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2% 5%;
+    padding: 1% 5%;
     text-align: center;
     font-size: 1em;
     width: 225px;
@@ -221,21 +225,10 @@ body, html {
 }
 
 /*Follow button background*/
-#eatingOptions a:hover{
-    color:white;
-    background: grey;
+.EatingOptions a:hover{
+    color: #807f7e;
 }
 
-/*Check out tag*/
-#checkOut{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 2% 5%;
-    text-align: center;
-    font-size: 3em;
-    
-}
 
 
 
