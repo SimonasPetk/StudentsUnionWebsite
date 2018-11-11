@@ -2,16 +2,30 @@
   width: 100%;
   margin-top: 10px;
   background-color: rgb(240,240,240);
-  height: 200px;
   border-top-color: rgb(103, 103, 103);
   border-top-style: solid;  
   border-top-width: 1px;
+  font-size: 12px;
 }
 
-.footerSectionWrapper {
-  margin: 5% 10%; 
+
+
+.flexSections{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+  	height: inherit;
 }
 
-.footer .flexSections {
-  float: left;
+.flexSections > div {
+	width: 200px;
+	margin: 10px;
+	text-align: center;
+}
+
+.flexSections > div > p {
+
+
+
 }
