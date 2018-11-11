@@ -1,82 +1,68 @@
 <!DOCTYPE HTML>
-
 <html lang = "en">
-<head>
-    <meta charset = "UTF-8">
-    <meta name = "author" content = "Manas">
-    <link rel = "stylesheet" href = "css/main.css">
-    <link rel = "stylesheet" href = "css/header.css">
-    <link rel = "stylesheet" href = "css/largeScreen.css">
-    <title>Food at SU</title>
-</head>
-
-<body>
-    <div class = "flex-Nav">
-    <header class = "navigation-bar">
-        <div class = "navMobDropdown">
-            <img id = "hamburger" src = "/images/Hamburger.png">
-            <div class = "mobDropdown-content">
-                <a href = "index.html">Home</a>
-                <a href = "EatingOptions.html">Food @SU</a>
-                <a href = "">Events</a>
-                <a href = "">Support</a>  
-                <a href = "contact.html">About Us</a>
-            </div>
-        </div>
-        <a href = "index.html">
-            <img id = "logo" alt = "Students Union Logo" src = "images/COM1008Logo.png">
-        </a>
-
-        <nav>
-        <div class = "navDropdown">
-            <a>More</a>
-            <div class = "dropdown-content">
-                <a href = "index.html">Home</a>
-                <a href = "EatingOptions.html">Food @SU</a>
-                <a href = "">History of SU</a>
-                <a href = "">Support</a>    
-            </div>
-        </div>
-        <a href = "contact.html">About</a>
-        </nav>
-    </header>
-    <div class = "EatingOptions">
-     
-        
-        <h2 id="checkOut">Check out the places to eat!</h2>
-        <a href = "https://www.sheffield.ac.uk/foodanddrink/view-deli"><img class = "eatImages" alt = "Image of The View Deli " src = "images/ViewBlack.png"></a><p>Meat is OFF the menu at The View Deli. Against the fantastic city backdrop, tuck into a host of freshly made vegetarian, vegan and gluten free treats and tasty lunches - don’t forget to take a look at the daily chalkboard menu and view our range of Coffee HoUSe hot and cold drinks.<br>Opening Times:<br>Mon – Fri: 8.30am – 4pm<br>Sat/Sun: Closed<br>Follow us on Twitter <a class = "follow" href="https://twitter.com/ViewDeli">@ViewDeli</a></p>
-
-
-        <a href = "https://www.sheffield.ac.uk/foodanddrink/uni-central"><img class = "eatImages" alt = "Logo of UNI Central" src = "images/UNICentral.png"></a><p>Come and meet the team inside the Students’ Union preparing an array of exciting food from the Stack It burger, Dough pizza and Grill & Go wrap stations.<br>Opening Times:<br>Mon – Fri: 11.30am – 2.30pm<br>Sat/Sun: Closed<br>Follow us on Twitter <a class = "follow" href = "https://twitter.com/UniCentraL4">@UniCentraL4</a></p>
-        
-        <a href = "https://www.sheffield.ac.uk/foodanddrink/grill-go"><img class = "eatImages" alt = "Image of Grill and Go" src = "images/GrillAndGo.png"></a><p>Located inside the Students’ Union, come and try our burritos, hot wraps and salad boxes,  cooked fresh and made to order. They are healthy and packed full of flavour – perfect for those on the go<br>Opening Times:<br>Mon – Fri: 11am –        4.30pm<br>Sat/Sun: Closed<br>Follow us on Twitter <a class = "follow" href = "https://twitter.com/grill_go">@grill_go</a></p>
-
-        <a href = "https://www.sheffield.ac.uk/alumni/services/inoxdine"><img class = "eatImages" alt = "Image of Inox Sheffield" src = "images/Inox.png"></a>
-        <p>Inox is a flexible event space located on the fifth floor of the University of Sheffield Students' Union Building. We provide all day dining, venue hire and a place for meetings and social working. Book a table today or drop in and see Inox for yourself<br>Follow us on Twitter <a class = "follow" href="https://twitter.com/InoxSheffield">@InoxSheffield</a></p>
-
-
-    </div>
-    </div>
-</body>
-    
-    <footer class = "footer">
-        <div class = "flexSections">
-            <div id = "footerFirst" >
-                <p> Icon Attribution </p>
-                <br>
-                <p> Photo Attribution </p>
-            </div>
-            <div id = "footerSecond">
-                <h5> Contact </h5>
-                <p> spetkevicius1@sheffield.ac.uk</p>
-                <p> Phone Number </p>
-                <div id = "Social icons">
-                    <p> Here Social media icons with links</p>
-                    <!--  Import social links to SU  -->   
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "author" content = "Manas">
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <link rel = "stylesheet" href = "css/eatingOptions.css">
+        <link rel = "stylesheet" href = "css/header.css">
+        <link rel = "stylesheet" href = "css/footer.css">
+        <link rel = "stylesheet" href = "css/mobileScreen.css">
+        <link rel = "stylesheet" href = "css/mediumScreen.css">
+        <link rel = "stylesheet" href = "css/largeScreen.css">
+        <title>Food at SU</title>
+    </head>
+    <body>
+         <header class = "header">
+            <a href = "index.html">
+            <img class = "logo" alt = "Students Union Logo" src = "images/COM1008Logo.png">
+            </a>
+            <nav>
+                <a id = "firstNav" href = "">Featured</a>
+                <div class = "featuredMore">
+                    <a id = "More1" href = ""></a>
+                    <a id = "More2" href = ""></a>    
                 </div>
-            </div>    
+                <a href = "">About</a>    
+                <a href = "contact.html">Contact us</a>
+            </nav>
+        </header>
+        <div id = "wrapperEatingOptions">
+            <div id = "slogan">
+                <p>Food made with</p>
+                <img id = "heart" alt = "Picture of heart" src = "images/Heart.png">  
+                <p>@Students<br>Union</p>
+            </div>
+            <div id = "eatingOptions">
+                <h2 id="checkOut">Check out the places where to eat!</h2>
+                <a href = "https://www.sheffield.ac.uk/foodanddrink/view-deli"><img class = "eatImages" alt = "Image of The View Deli " src = "images/ViewBlack.png"></a>
+                <p>Meat is OFF the menu at The View Deli. Against the fantastic city backdrop, tuck into a host of freshly made vegetarian, vegan and gluten free treats and tasty lunches - don’t forget to take a look at the daily chalkboard menu and view our range of Coffee HoUSe hot and cold drinks.<br>Opening Times:<br>Mon – Fri: 8.30am – 4pm<br>Sat/Sun: Closed<br>Follow us on Twitter <a class = "follow" href="https://twitter.com/ViewDeli">@ViewDeli</a></p>
+                <a href = "https://www.sheffield.ac.uk/foodanddrink/uni-central"><img class = "eatImages" alt = "Logo of UNI Central" src = "images/UNICentral.png"></a>
+                <p>Come and meet the team inside the Students’ Union preparing an array of exciting food from the Stack It burger, Dough pizza and Grill & Go wrap stations.<br>Opening Times:<br>Mon – Fri: 11.30am – 2.30pm<br>Sat/Sun: Closed<br>Follow us on Twitter <a class = "follow" href = "https://twitter.com/UniCentraL4">@UniCentraL4</a></p>
+                <a href = "https://www.sheffield.ac.uk/foodanddrink/grill-go"><img class = "eatImages" alt = "Image of Grill and Go" src = "images/GrillAndGo.png"></a>
+                <p>Located inside the Students’ Union, come and try our burritos, hot wraps and salad boxes, cooked fresh and made to order. They are healthy and packed full of flavour – perfect for those on the go<br>Opening Times:<br>Mon – Fri: 11am – 4.30pm<br>Sat/Sun: Closed<br>Follow us on Twitter <a class = "follow" href = "https://twitter.com/grill_go">@grill_go</a></p>
+                <a href = "https://www.sheffield.ac.uk/alumni/services/inoxdine"><img class = "eatImages" alt = "Image of Inox Sheffield" src = "images/Inox.png"></a>
+                <p>Inox is a flexible event space located on the fifth floor of the University of Sheffield Students' Union Building. We provide all day dining, venue hire and a place for meetings and social working. Book a table today or drop in and see Inox for yourself<br>Follow us on Twitter <a class = "follow" href="https://twitter.com/InoxSheffield">@InoxSheffield</a></p>
+            </div>
+            <footer class = "footer">
+                <div class = "flexSections">
+                    <div id = "footerFirst">
+                        <p> Icon Attribution </p>
+                        </br>
+                        <p> Photo Attribution </p>
+                    </div>
+                    <div id = "footerSecond">
+                        <h5> Contact </h5>
+                        <p> spetkevicius1@sheffield.ac.uk</p>
+                        <p> Phone Number </p>
+                        <div id = "Social icons">
+                            <p> Here Social media icons with links</p>
+                            <!--  Import social links to SU  -->
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
-    </footer>
-        
-
+    </body>
 </html>
+

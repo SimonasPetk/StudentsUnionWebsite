@@ -1,0 +1,95 @@
+/*---------------------------------------------------------------*/
+/*Styles for eating options*/
+
+/*Setting the font READ ABOUT THIS https://blog.fontspring.com/2011/02/the-new-bulletproof-font-face-syntax*/
+ @font-face{
+     font-family: Comfortaa;
+     src : url(../fonts/comfortaa.regular.ttf);
+}
+/*Applying font to the whole page*/
+ body, html {
+     font-family: "Comfortaa", sans-serif;
+     height: 100%;
+     margin: 0;
+}
+
+
+/*Background color and font color*/
+ #wrapperEatingOptions{
+     color: Black;
+     background-color: #daecf2;
+}
+/*de-styling Links in the page*/
+ #wrapperEatingOptions a{
+     text-decoration: none;
+}
+/*Catchy tagling*/
+ #slogan{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     justify-content: center;
+     padding-top: 0;
+     font-size: 4em;
+     padding-bottom: 5%;
+}
+/*styles for heart icon*/
+ #heart{
+     display: flex;
+     justify-content: center;
+     width: 300px;
+     height:300px;
+     margin: 0 auto 0 auto;
+     transition: transform .3s ease;
+}
+/*Transition effect for heart*/
+ #heart:hover{
+     transform: scale(1.25);
+}
+/*Setting style for eating options*/
+ .eatImages{
+     display: flex;
+     margin: auto;
+     width: 300px;
+     transition: transform .3s;
+}
+/*Transition for eating options images*/
+ .eatImages:hover{
+     transform: scale(1.25);
+}
+/*Eating options info*/
+ #eatingOptions p{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding: 2% 5%;
+     text-align: center;
+     font-size: 2em;
+}
+/*Follow on twitter button*/
+ .follow{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding: 2% 5%;
+     text-align: center;
+     font-size: 1em;
+     width: 225px;
+     border-radius: 50px;
+     color: black;
+     margin: 2% auto 5% auto;
+}
+/*Follow button background*/
+ #eatingOptions a:hover{
+     color:white;
+     background: grey;
+}
+/*Check out tag*/
+ #checkOut{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding: 2% 5%;
+     text-align: center;
+     font-size: 3em;
+}

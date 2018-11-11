@@ -1,47 +1,32 @@
 <!DOCTYPE HTML>
 <html>
-
-<head>
-<meta charset = "UTF-8">
-<title>Contact Form</title>
-<meta name = "author" content = "Simonas Petkevicius">
-<link rel = "stylesheet" href = "css/normalize.css">
-<link rel = "stylesheet" href = "css/header.css">
-<link rel = "stylesheet" href = "css/contact.css">
-<link rel = "stylesheet" href = "css/largeScreen.css">
-</head>
-
-
-
- <body>
-      <header class = "navigation-bar">
-        <div class = "navMobDropdown">
-            <img id = "hamburger" src = "/images/Hamburger.png">
-            <div class = "mobDropdown-content">
-                <a href = "index.html">Home</a>
-                <a href = "EatingOptions.html">Food @SU</a>
-                <a href = "">Events</a>
-                <a href = "">Support</a>    
+   <head>
+      <meta charset = "UTF-8">
+      <title>Contact Form</title>
+      <meta name = "author" content = "Simonas Petkevicius">
+      <link rel = "stylesheet" href = "css/normalize.css">
+      <link rel = "stylesheet" href = "css/contact.css">
+      <link rel = "stylesheet" href = "css/header.css">
+      <link rel = "stylesheet" href = "css/footer.css">
+      <link rel = "stylesheet" href = "css/mobileScreen.css">
+      <link rel = "stylesheet" href = "css/mediumScreen.css">
+      <link rel = "stylesheet" href = "css/largeScreen.css">
+   </head>
+   <body>
+      <header class = "header">
+         <a href = "index.html">
+         <img class = "logo" alt = "Students Union Logo" src = "images/COM1008Logo.png">
+         </a>
+         <nav>
+            <a id = "firstNav" href = "">Featured</a>
+            <div class = "featuredMore">
+               <a id = "More1" href = ""></a>
+               <a id = "More2" href = ""></a>    
             </div>
-        </div>
-        <a href = "index.html">
-            <img id = "logo" alt = "Students Union Logo" src = "images/COM1008Logo.png">
-        </a>
-
-        <nav>
-        <div class = "navDropdown">
-            <a>More</a>
-            <div class = "dropdown-content">
-                <a href = "index.html">Home</a>
-                <a href = "EatingOptions.html">Food @SU</a>
-                <a href = "">History of SU</a>
-                <a href = "">Support</a>    
-            </div>
-        </div>
-        <a href = "contact.html">About</a>
-        </nav>
-    </header>
-
+            <a href = "">About</a>    
+            <a href = "contact.html">Contact us</a>
+         </nav>
+      </header>
       <div id = "wrapperContact">
          <section id = "developers">
             <h2> About the Developers of This Website</h2>
@@ -63,7 +48,6 @@
             </div>
          </section>
          <section id = "contactUs">
-
             <h2> Don't Hesitate to Contact Us </h2>
             <p> You can reach us via our emails above or the contact form below</p>
          </section>
@@ -82,7 +66,7 @@
             <div class = "flexSections">
                <div id = "footerFirst">
                   <p> Icon Attribution </p>
-                  <br>
+                  </br>
                   <p> Photo Attribution </p>
                </div>
                <div id = "footerSecond">
@@ -97,36 +81,5 @@
             </div>
          </footer>
       </div>
-
-     
-        
-
-    <div id = "wrapperContact">
-        <section id = "information">
-            <h2> Don't Hesitate to Contact Us </h2>
-            <p> You can contact us via email or the contact form below </p>
-        </section>
-
-        <section class="body">
-            <form method="post" action="contact.php">
-
-                <label>Name</label>
-                <input name="name" placeholder="Type Here">
-
-                <label>Email</label>
-                <input name="email" type="email" placeholder="Type Here">
-
-                <label>Message</label>
-                <textarea name="message" placeholder="Type Here"></textarea>
-
-                <input id="submit" name="submit" type="submit" value="Submit">
-            </form>    
-        </section>
-
-        <footer class="body">
-        </footer>
-    </div>
-
-</body>
-
+   </body>
 </html>
