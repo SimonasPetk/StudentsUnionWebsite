@@ -95,7 +95,7 @@
      transition: transform .3s;
 }
  .centre:hover{
-     transform: scale(1.25);
+     transform: scale(1.1);
 }
  @media screen and (max-width: 1300px) {
      .iconsFirst, .iconsSecond {

@@ -44,7 +44,7 @@
 }
 /*Transition effect for heart*/
  #heart:hover{
-     transform: scale(1.25);
+     transform: scale(1.1);
 }
 /*Setting style for eating options*/
  .eatImages{
@@ -55,7 +55,7 @@
 }
 /*Transition for eating options images*/
  .eatImages:hover{
-     transform: scale(1.25);
+     transform: scale(1.1);
 }
 /*Eating options info*/
  #eatingOptions p{
@@ -93,3 +93,4 @@
      text-align: center;
      font-size: 3em;
 }
+
