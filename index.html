@@ -14,23 +14,22 @@
         <link rel = "stylesheet" href = "css/largeScreen.css">
     </head>
     <body>
+		<header class = "navigation-bar">
+        <div class = "navMobDropdown">
+            <img id = "hamburger" src = "images/Hamburger.png"> 
+			<div class = "mobDropdown-content">
+               <a href = "index.html">Home</a>
+               <a href = "EatingOptions.html">Food @SU</a>
+               <a href = "">Events</a>
+               <a href = "">Support</a>  
+               <a href = "contact.html">About Us</a>
+            </div>
+        </div>
+        <a href = "index.html">
+            <img id = "logo" alt = "Students Union Logo" src = "images/COM1008Logo.png">
+        </a>
 
-        <header class = "navigation-bar">
-         <div class = "navMobDropdown">
-             <img id = "hamburger" src = "images/Hamburger.png">
-             <div class = "mobDropdown-content">
-                 <a href = "index.html">Home</a>
-                 <a href = "EatingOptions.html">Food @SU</a>
-                 <a href = "">Events</a>
-                 <a href = "">Support</a>  
-                 <a href = "contact.html">About Us</a>
-             </div>
-         </div>
-         <a href = "index.html">
-             <img id = "logo" alt = "Students Union Logo" src = "images/COM1008Logo.png">
-         </a>
-
-         <nav>
+        <nav>
              <div class = "navDropdown">
                  <a>More</a>
                  <div class = "dropdown-content">
@@ -80,7 +79,12 @@
             <section id = "findUS">
                 <h2>How to Find Sheffield Student's Union</h2>
                 <!--The div element for the map -->
-                <div id="map"></div>
+                <div id="map">
+                <noscript>
+                <div id = "noscript">
+                </div>
+                </noscript>
+				</div>
                 <script src="js/googleMap.js"></script> 
                 <script async defer
                     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmaQud_gsQz8NOm1qYqeUbMMjRK_xHCpo&callback=initMap"></script>
@@ -89,7 +93,7 @@
                 <div class = "flexSections">
                     <div id = "footerFirst">
                         <p> Icon Attribution </p>
-                        </br>
+                        <br>
                         <p> Photo Attribution </p>
                     </div>
                     <div id = "footerSecond">

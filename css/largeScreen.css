@@ -5,7 +5,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/Home-Featured.JPEG");
+    background-image: url("../images/Home-Featured.jpg");
     }
    
     
@@ -17,6 +17,7 @@
     }
     
     #logo{
+		display: inline;
         width: 12%;
         margin: 0;
     }
@@ -76,6 +77,14 @@
      .navMobDropdown{
          display: none;
      }
+	
+	#featured1{
+		font-size: 4em;
+	}
+	
+	#featured2{
+		font-size: 2em;
+	}
 
 }
 
