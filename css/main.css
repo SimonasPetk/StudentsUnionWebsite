@@ -46,7 +46,11 @@
 }
 
 /*for very small devices*/
-@media(max-width: 400px){	
+@media(max-width: 390px){	
+	.bg{
+		height: 400px;
+	}
+	
 	#featured1{
 		font-size: 2em;
 		}
