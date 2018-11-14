@@ -45,13 +45,25 @@
      letter-spacing: 4px;
 }
 
-#hangOut{
-     margin: auto;
-     text-align: center;
-     font-size: 3em;
-     padding: 2%;
- }
+/*for very small devices*/
+@media(max-width: 400px){	
+	#featured1{
+		font-size: 2em;
+		}
 
+	#featured2{
+		font-size: 1em;
+	}
+	
+	.bg #learnmore{
+		font-size: 1em;
+		width: 150px;
+	}
+	
+	#featuredIcons #hangOut{
+		font-size: 2em;
+	}
+}
 
 /*Learn more button*/
  #learnmore {
@@ -73,6 +85,14 @@
      background: #ce3737;
      color: White;
 }
+
+#hangOut{
+     margin: auto;
+     text-align: center;
+     font-size: 3em;
+     padding: 2%;
+ }
+
  .iconsFirst, .iconsSecond {
      float: left;
      width: 25%;
