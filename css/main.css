@@ -136,6 +136,7 @@
      text-align: center;
 }
 
+/*If JavaScript is off*/
 #noscript{
     background: url("/images/Map.png");
     width: 100%;
@@ -144,6 +145,16 @@
     background-position: center;
     background-size: cover;
 }
+
+#noscript span{
+	padding: 0 2%;
+}
+
+#noscript a{
+	text-decoration: none;
+	color: black;
+}
+/*------------------*/
 
 #map {
      height: 400px;
@@ -155,3 +166,10 @@
      border-radius: 10px;
      border-color: rgb(240,240,240);*/
 }
+
+#map p{
+	display: flex;
+	justify-content: flex-end;
+	font-size: 0.7em;
+}
+
