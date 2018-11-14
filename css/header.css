@@ -53,14 +53,25 @@ nav a:hover{
 	 margin: auto;
  }
 
+@media(max-width: 400px){
+	#logo{
+		width: 40%;
+	}
+	
+	.navMobDropdown #hamburger{
+		width: 10%;
+		margin:4% 0 2% 0;
+	}
+} 
+
 
  nav{
      display: none;
  }
 
  #hamburger{
-     position: absolute;
-     width: 60px;
+	 position: absolute;
+	 width: 60px;
 	 padding: 0 5%;
      margin: 34px 0% 0% -5%;
  }
