@@ -77,12 +77,15 @@
          display: none;
      }
 	
-	#featured1{
+	.bg #featured1{
 		font-size: 4em;
+		padding: 5% 0 0 0;
 	}
 	
-	#featured2{
+	.bg #featured2{
 		font-size: 2em;
+		padding: 2% 0 0 0;
+		margin: 5% 0 0 0;
 	}
 	
 	/*------------Eating options-------------*/

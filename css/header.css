@@ -77,9 +77,9 @@ nav a:hover{
 
  #hamburger{
 	 position: absolute;
-	 width: 60px;
+	 width: 40px;
 	 padding: 0 5%;
-     margin: 34px 0% 0% -5%;
+     margin: 45px 0% 0% -5%;
  }
 
  .navMobDropdown{
@@ -95,7 +95,7 @@ nav a:hover{
      width: 200px;
      background-color: #e6e6e6;
      box-shadow: 2px 2px 25px;
-     margin: 90px 0 0 2%;
+     margin: 90px 0 0 -1%;
      font-size: 150%;
      padding: 20px 10px;
      z-index: 2;
