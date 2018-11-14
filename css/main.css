@@ -84,6 +84,16 @@
      margin: auto;
      margin-top: 10% 
 }
+
+@-moz-document url-prefix(){
+	#learnmore{
+		background: #d64036;
+	}
+	
+	.bg #learnmore:hover{
+		background: #e83519;
+	}
+}
 /*button effect for learnmore*/
  #learnmore:hover{
      background: #ce3737;
