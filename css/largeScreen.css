@@ -7,7 +7,6 @@
     background-size: cover;
     background-image: url("../images/Home-Featured.jpg");
     }
-   
     
     nav{
         display: flex;
@@ -51,31 +50,30 @@
     }
     
     .dropdown-content a{
-        padding: 7%;
+        padding: 7% 0;
     }
 
-     .navDropdown:hover{
-		 cursor: default;
-     }
+    .navDropdown:hover{
+        cursor: default;
+    }
 
-     .navDropdown:hover .dropdown-content {
-         display: block;
+    .navDropdown:hover .dropdown-content {
+        display: block;
 
-     }
-
-     .dropdown-content a:hover{
-         color: #9c9c9c;
-         padding: 7%
-     }
+    }
+    
+    .dropdown-content a:hover{
+        color: #9c9c9c;
+        padding: 7% 0;
+    }
      
-     #hamburger{
-         display: none;
-         
-     }
+    #hamburger{
+        display: none;
+    }
      
-     .navMobDropdown{
-         display: none;
-     }
+    .navMobDropdown{
+        display: none;
+    }
 	
 	.bg #featured1{
 		font-size: 4em;
