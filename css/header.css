@@ -102,6 +102,8 @@ nav a:hover{
      border-radius: 20px;
      }
 
+
+
  .mobDropdown-content a{
     width: 100%;
     text-decoration: none;
@@ -114,9 +116,9 @@ nav a:hover{
 
      
  .navMobDropdown:hover .mobDropdown-content {
-         display: block;
-
+    display: block;
  }
+
 
  .mobDropdown-content a:hover{
      color: #9c9c9c;
