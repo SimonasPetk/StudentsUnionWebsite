@@ -7,6 +7,11 @@ footer {
   flex-shrink: 0;
 }
 
+footer p {
+
+	margin: 10px 0 0 0;
+}
+
 .flexSections{
 	display: flex;
 	flex-direction: column;
@@ -20,3 +25,23 @@ footer {
 	margin: 10px;
 	text-align: center;
 }
+.flexSitemapColumn {
+	display: flex;
+	flex-direction: column;
+}
+
+h5 {
+	margin: 0;
+}
+
+.flexSitemapColumn a {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+#flexSitemapMain {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+}
+
