@@ -107,6 +107,11 @@
 		float: left;
 		padding: 0 3%;
 	}
+    
+    /*----------Support Options---------------*/
+    #wrapperSupport #tagline{
+        flex-direction: row;
+    }
 	
 }
 
