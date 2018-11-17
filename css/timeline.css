@@ -41,9 +41,12 @@
     text-align: justify;
      justify-content: space-between;
      clear: both;
+
 }
  .rightBlock {
-     float: right;
+     float: right; 
+
+
 }
  .leftBlock {
      float: left;
@@ -56,12 +59,16 @@
      border: 2px solid #F5F7FA;
      background: #4FC1E9;
      margin: 10px -1px 0px -1px;
-     z-index: 9999; 
+     z-index: 1; 
 }
 
  .description {
      width: 95%;
+     margin:0 10px;
      padding: 0 15px;
+    border-radius: 25px;
+     border: 3px solid #f2ecda;
+     background-color: #f2dae0;
 }
  .description h3 {
      margin-top: 5px;
