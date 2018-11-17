@@ -8,11 +8,14 @@
      margin:0;
      display: flex;
      flex-direction: column;
-     background-color: #daecf2;
 }
  #developers h2 {
      padding: 20px 0 0 0;
      margin: 0;
+}
+
+#wrapperContact{
+    background-color: #daecf2;
 }
 
 #pageContent {
