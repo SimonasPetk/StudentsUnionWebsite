@@ -6,10 +6,10 @@
 /*Applying font to the whole page*/
  body, html {
      font-family: "Comfortaa", sans-serif;
-     height: 100%;
      margin: 0;
      scroll-behavior: smooth;
 }
+
  #wrapperMain{
      background-color: #daecf2;
 }
