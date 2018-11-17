@@ -11,17 +11,16 @@
      background-color: #daecf2;
 }
 
- h1 {
+ h1, h3 {
      text-align: center;
-     font-weight: 300;
-}
- h1 span {
      font-weight: 600;
+     margin: 20px 0 0 0;
 }
+
  .timelineContainer {
      width: 80%;
-     padding: 50px 0;
-     margin: 50px auto;
+     padding: 30px 0;
+     margin: 50px auto 30px auto;
      position: relative;
      overflow: hidden;
 }
@@ -56,22 +55,25 @@
      border-radius: 50%;
      border: 2px solid #F5F7FA;
      background: #4FC1E9;
-     margin-top: 10px;
+     margin: 10px -1px 0px -1px;
      z-index: 9999; 
 }
  .description {
      width: 95%;
      padding: 0 15px;
-     color: #666; 
 }
  .description h3 {
      margin-top: 5px;
      margin-bottom: 5px;
      font-size: 25px;
-     font-weight: 500; 
+     font-weight: 700; 
 }
- .description span {
+ .description h5 {
      font-size: 15px;
+     font-weight: 600;
+     text-align: center;
+     margin: 10px auto 0 auto;
+
 }
  .description p {
      font-size: 14px;
