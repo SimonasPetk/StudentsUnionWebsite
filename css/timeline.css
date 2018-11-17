@@ -1,0 +1,99 @@
+/*Applying font to the whole page*/
+ @font-face{
+     font-family: Comfortaa;
+     src : url(../fonts/comfortaa.regular.ttf);
+}
+ body, html {
+     font-family: "Comfortaa", sans-serif;
+     margin:0;
+     display: flex;
+     flex-direction: column;
+     background-color: #daecf2;
+}
+
+ h1, h3 {
+     text-align: center;
+     font-weight: 600;
+     margin: 20px 0 0 0;
+}
+
+ .timelineContainer {
+     width: 80%;
+     padding: 30px 0;
+     margin: 50px auto 30px auto;
+     position: relative;
+     overflow: hidden;
+}
+ .timelineContainer:before {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 50%;
+     margin-left: -1px;
+     width: 2px;
+     height: 100%;
+     background: #CCD1D9;
+     z-index: 1;
+}
+ .textBlock {
+     width: calc(50% + 8px);
+     display: flex;
+    text-align: justify;
+     justify-content: space-between;
+     clear: both;
+}
+ .rightBlock {
+     float: right;
+}
+ .leftBlock {
+     float: left;
+     direction: rtl;
+}
+ .marker {
+     width: 16px;
+     height: 16px;
+     border-radius: 50%;
+     border: 2px solid #F5F7FA;
+     background: #4FC1E9;
+     margin: 10px -1px 0px -1px;
+     z-index: 9999; 
+}
+ .description {
+     width: 95%;
+     padding: 0 15px;
+}
+ .description h3 {
+     margin-top: 5px;
+     margin-bottom: 5px;
+     font-size: 25px;
+     font-weight: 700; 
+}
+ .description h5 {
+     font-size: 15px;
+     font-weight: 600;
+     text-align: center;
+     margin: 10px auto 0 auto;
+
+}
+ .description p {
+     font-size: 14px;
+     line-height: 1.5em;
+     word-spacing: 1px;
+}
+ @media screen and (max-width: 768px) {
+     .timelineContainer:before {
+         left: 8px;
+         width: 2px;
+    }
+     .textBlock {
+         width: 100%;
+         margin-bottom: 30px;
+    }
+     .rightBlock {
+         float: none;
+    }
+     .leftBlock {
+         float: none;
+         direction: ltr;
+    }
+}
