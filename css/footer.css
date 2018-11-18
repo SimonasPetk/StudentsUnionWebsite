@@ -1,43 +1,63 @@
 footer {
-   width: 100%;
-  background-color: rgb(240,240,240);
-  border-top: rgb(103, 103, 103) solid 1px;
-  font-size: 12px;
-  flex-shrink: 0;
-  letter-spacing: 1px;
-}
-footer p, footer h5 {
-	margin: 10px 0 0 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    border-top: #676767 solid 1px;
+    font-size: 12px;
+    flex-shrink: 0;
+    letter-spacing: 1px;
 }
 
-#socialMedia img{
-	height: 30px;
-	width: 100%;
+footer h5,footer p {
+    margin: 10px 0 0;
+}
+
+#footerFirst p {
+    margin: 5px 0 0;
+}
+
+#socialMedia img {
+    height: 30px;
+    width: 100%;
 }
 
 #socialMedia a {
-	display: inline-block;
-	margin-right: 5px;
+    display: inline-block;
+    margin-right: 5px;
 }
 
+#flexSections,#socialMedia {
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+}
 
 #socialMedia {
-	display: flex;
- 	flex-direction: row;
- 	height: inherit;
- 	margin: 3px 0;
- 	justify-content: center;
-	}
- .flexSections{
- 	display: flex;
- 	flex-direction: row;
- 	align-items: top;
- 	margin: auto;
- 	height: inherit;
- }
- 
- .flexSections div {
- 	width: 350px;
- 	margin: 5px;
- 	text-align: center;
- }
+    justify-content: center;
+    margin: 3px 0;
+}
+
+#flexSections {
+    margin: auto;
+}
+
+#flexSections div {
+    width: 250px;
+    margin: 5px;
+    text-align: center;
+}
+
+#footerFourth,#sitemap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sitemap {
+    flex-direction: row;
+    max-width: 90%;
+}
+
+.sitemapColumn {
+    display: flex;
+    flex-direction: column;
+}

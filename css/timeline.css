@@ -20,10 +20,10 @@ body,html {
 .leftFigure {
     margin: 10px 10px 2px 0;
 }
+
 .rightFigure {
     margin: 10px 0 2px 10px;
 }
-
 
 figure img {
     height: auto;

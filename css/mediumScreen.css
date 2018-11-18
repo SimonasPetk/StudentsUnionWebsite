@@ -1,18 +1,9 @@
-@media(max-width: 770px) {
-   
-    .flexSections{
+@media (max-width:770px) {
+    #flexSections {
         align-items: center;
-        flex-direction: column;
     }
 
-    #flexContact {
-
-   		flex-direction: column;
-	}
-
-	.flexImages {
-    flex-direction: column;
-	}
-
-	
+    #flexContact, #flexSections, .flexImages {
+        flex-direction: column;
+    }
 }
