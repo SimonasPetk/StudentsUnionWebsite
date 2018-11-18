@@ -1,13 +1,17 @@
-@media(min-width: 770px) {
+@media(max-width: 770px) {
    
     .flexSections{
 
-        flex-direction: row;
+        flex-direction: column;
     }
 
     #flexContact {
 
-   		flex-direction: row;
+   		flex-direction: column;
+	}
+
+	.flexImages {
+    flex-direction: column;
 	}
 
 	

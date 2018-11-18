@@ -29,7 +29,7 @@
  #flexContact {
      display: flex;
      align-items: center;
-     flex-direction: column;
+     flex-direction: row;
 }
  .about p, h4 {
      margin: 2%;
