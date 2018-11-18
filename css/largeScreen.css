@@ -38,34 +38,33 @@
      }
 
     .dropdown-content{
-    display:none;
+    display: none;
 	position: fixed;
     background-color: #e6e6e6;
-	width: 150px;
-    box-shadow: 2px 2px 25px;
-	padding: 1% 2%;
-	right: 25%;
+	width: 100%;
+	padding: 10px 1% 20px 1%;
+    top: 80px;    
+	right: 0%;
     z-index: 1;
-    border-radius: 20px;
     }
     
     .dropdown-content a{
         font-size: 0.5em;
-        padding: 7% 0;
+        padding: 6% 0 0 0;
     }
 
     .navDropdown:hover{
         cursor: default;
     }
 
-    .navDropdown:hover .dropdown-content {
-        display: block;
-
+    .navDropdown:hover .dropdown-content{
+        display: flex;
+        flex-direction: row;
     }
     
     .dropdown-content a:hover{
         color: #9c9c9c;
-        padding: 7% 0;
+        padding: 6% 0 0 0 ;
     }
      
     #hamburger{
