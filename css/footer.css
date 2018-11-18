@@ -4,17 +4,40 @@ footer {
   border-top: rgb(103, 103, 103) solid 1px;
   font-size: 12px;
   flex-shrink: 0;
+  letter-spacing: 1px;
 }
+footer p, footer h5 {
+	margin: 10px 0 0 0;
+}
+
+#socialMedia img{
+	height: 30px;
+	width: 100%;
+}
+
+#socialMedia a {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+
+#socialMedia {
+	display: flex;
+ 	flex-direction: row;
+ 	height: inherit;
+ 	margin: 3px 0;
+ 	justify-content: center;
+	}
  .flexSections{
  	display: flex;
  	flex-direction: row;
- 	align-items: center;
+ 	align-items: top;
  	margin: auto;
  	height: inherit;
  }
  
  .flexSections div {
- 	width: 200px;
- 	margin: 10px;
+ 	width: 350px;
+ 	margin: 5px;
  	text-align: center;
  }

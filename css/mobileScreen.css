@@ -37,4 +37,7 @@
 		font-size: 2em;
 	}
 	
+	.flexSections div {
+ 		width: 250px;
+ 	}
 }
