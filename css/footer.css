@@ -5,6 +5,7 @@ footer {
     font-size: 12px;
     flex-shrink: 0;
     letter-spacing: 1px;
+    justify-content: center;
 }
 
 footer h5,footer p {
@@ -31,6 +32,7 @@ footer h5,footer p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: inherit;
 }
 
