@@ -83,8 +83,10 @@
     }
 	
 	.bg #featured1{
+        width: 100vw;
 		font-size: 4em;
-		padding: 5% 0 0 0;
+        text-align: center;
+		padding: 10% 0 0 0;
 	}
 	
 	.bg #featured2{
@@ -95,6 +97,7 @@
 	
 	/*------------Eating options-------------*/
 	 #slogan{
+    width: 100vw;
      display: flex;
      flex-direction: row;
      text-align: center;
