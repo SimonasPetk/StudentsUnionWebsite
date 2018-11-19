@@ -30,6 +30,7 @@ footer h5,footer p {
 #flexSections {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     height: inherit;
 }
 
