@@ -3,11 +3,12 @@
         align-items: center;
     }
 
-    #flexContact, #flexSections, .flexImages {
-        flex-direction: column;
-    }
-
     form {
      max-width: 80%;
 	}
+
+	 #sitemap {
+        flex-direction: column;
+        max-width: 100%;
+    }
 }

@@ -29,7 +29,7 @@
  #flexContact {
      display: flex;
      align-items: center;
-     flex-direction: row;
+     flex-direction: column;
 }
 
 /* set dimensions of images that it would not exceed

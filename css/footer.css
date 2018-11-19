@@ -23,16 +23,19 @@ footer h5,footer p {
 
 #socialMedia a {
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 8px;
+    flex-direction: 
 }
 
-#flexSections,#socialMedia {
+#flexSections {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: inherit;
 }
 
 #socialMedia {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     margin: 3px 0;
 }
@@ -54,7 +57,7 @@ footer h5,footer p {
 }
 
 #sitemap {
-    flex-direction: row;
+    flex-direction: column;
     max-width: 90%;
 }
 

@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1080px){
     .bg{
     width:100%;
     height: 700px; 
@@ -29,10 +29,14 @@
         padding: 0;
     }
     
-    .iconsFirst, .iconsSecond {
-        width: 50%;
+    #featuredIcons {
+        flex-direction: row;
     }
-    
+
+    #sitemap {
+        flex-direction: row;
+    }
+
     
     .navDropdown{
     position: relative;
@@ -121,6 +125,11 @@
     
     /*----------Support Options---------------*/
     #wrapperSupport #tagline{
+        flex-direction: row;
+    }
+
+
+        #flexContact, #flexSections, .flexImages {
         flex-direction: row;
     }
 	

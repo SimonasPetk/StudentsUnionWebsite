@@ -1,5 +1,5 @@
 /*for very very small devices*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 390px) {
 		/*--------mobile header--------*/
     #logo {
         width: 40%;
@@ -33,7 +33,4 @@
         width: 150px;
     }
 
-    #sitemap {
-        flex-direction: column;
-    }
 }

@@ -58,8 +58,7 @@
      text-align: center;
      border-radius: 230px;
      padding: 1% 0;
-     margin: auto;
-     margin-top: 10% 
+     margin: 3% auto;
 }
 
 @-moz-document url-prefix(){
@@ -81,27 +80,28 @@
      margin: auto;
      text-align: center;
      font-size: 3em;
-     padding: 5% 2%;
+     padding: 2% 2%;
  }
 
- .iconsFirst, .iconsSecond {
-     float: left;
-     width: 25%;
-     text-align: center;
+
+ #featuredIcons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    flex-wrap: wrap;
+    margin: 10px 2% 10px 2%;
 }
 
-.iconsSecond{
-	padding: 4% 0 0 0;
-}
-/* Clear floats after the columns */
- #featuredIcons:after {
-     content: "";
-     display: table;
-     clear: both;
-}
- #featuredIcons {
-     margin: 10px 2% 10px 2%;
-}
+ #featuredIcons> div {
+    width: 50%;
+    height: 50%; 
+    margin: auto;
+ }
+
+
+
  .centre {
      display: block;
      margin: auto;
@@ -113,18 +113,9 @@
  .centre:hover{
      transform: scale(1.1);
 }
- @media screen and (max-width: 1300px) {
-     .iconsFirst, .iconsSecond {
-         width: 50%;
-    }
-}
- @media screen and (max-width: 650px) {
-     .iconsFirst, .iconsSecond {
-         width: 100%;
-    }
-}
+
  #findUS {
-	 padding: 4% 0 0 0;
+	 padding: 2% 0 0 0;
      text-align: center;
 }
 
