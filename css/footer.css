@@ -8,12 +8,8 @@ footer {
     justify-content: center;
 }
 
-footer h5,footer p {
-    margin: 10px 0 0;
-}
-
-#footerFirst p {
-    margin: 5px 0 0;
+footer h5, footer p {
+    margin: 5px 0;
 }
 
 #socialMedia img {
@@ -25,14 +21,12 @@ footer h5,footer p {
 #socialMedia a {
     display: inline-block;
     margin-right: 8px;
-    flex-direction: 
 }
 
 #flexSections {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: inherit;
 }
 
@@ -47,7 +41,7 @@ footer h5,footer p {
     margin: auto;
 }
 
-#flexSections div {
+#flexSections div:not(#sitemap) {
     width: 250px;
     margin: 5px;
     text-align: center;
@@ -59,12 +53,17 @@ footer h5,footer p {
     align-items: center;
 }
 
+#footerFourth h5{
+    margin: 5px 0 0 0;
+}
+
 #sitemap {
-    flex-direction: column;
     max-width: 90%;
+    margin: 0;
 }
 
 .sitemapColumn {
     display: flex;
     flex-direction: column;
+    margin:0;
 }
