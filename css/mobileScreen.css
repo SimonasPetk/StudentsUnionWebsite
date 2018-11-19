@@ -1,5 +1,5 @@
 /*for very very small devices*/
-@media (device-width:390px) {
+@media (max-width:390px) {
 		/*--------mobile header--------*/
     #logo {
         width: 40%;

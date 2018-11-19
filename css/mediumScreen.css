@@ -1,4 +1,4 @@
-@media (device-width:770px) {
+@media (max-width:770px) {
     #flexSections {
         align-items: center;
     }
