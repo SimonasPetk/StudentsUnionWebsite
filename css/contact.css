@@ -14,31 +14,43 @@
      margin: 0;
 }
 
+/* To wrap the contact page and put colouring into it*/
 #wrapperContact{
     background-color:#daecf2;
     height: inherit;
 }
 
-#pageContent {
-  min-height: calc(100vh - 40px);
-}
-
+ 
  #developers {
      text-align: center;
 }
+
+/* display info of the developers in the flex box*/
  #flexContact {
      display: flex;
      align-items: center;
      flex-direction: row;
 }
+
+/* set dimensions of images that it would not exceed
+ that and make images round if they are not */
+.about img {
+     border-radius: 50%;
+     max-width: 200px;
+     max-height: 200px;
+}
+
+
  .about p, h4 {
      margin: 2%;
 }
- .about .aboutText{
+
+.aboutText{
      margin: 5px 10%;
      align-items: center;
      text-align: justify;
 }
+
  #contactUs{
      display: flex;
      flex-direction: column;
