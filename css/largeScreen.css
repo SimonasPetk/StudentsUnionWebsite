@@ -47,10 +47,11 @@
     display: none;
 	position: absolute;
     background-color: #e6e6e6;
-	width: 102vw;
+	width: 100vw;
 	height: 90px;    
-    top: 72px;  
+    top: 70px;  
 	left: -70vw;
+    padding: 0 7.1%;    
     z-index: 1;
     }
     
