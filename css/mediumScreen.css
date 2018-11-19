@@ -6,4 +6,8 @@
     #flexContact, #flexSections, .flexImages {
         flex-direction: column;
     }
+
+    form {
+     max-width: 80%;
+	}
 }

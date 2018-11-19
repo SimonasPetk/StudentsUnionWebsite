@@ -45,12 +45,11 @@
      margin: 2%;
 }
 
-.aboutText{
-     margin: 5px 10%;
+ .about .aboutText{
+     margin: 10px 10%;
      align-items: center;
      text-align: justify;
 }
-
  #contactUs{
      display: flex;
      flex-direction: column;
@@ -63,20 +62,22 @@
      padding: 0 0 20px 0;
      margin: 0;
 }
-/* Labels are representen in a block from top to bottom */
+/* Textarea label styling */
  label {
      display:block;
-     padding-top:20px;
+     padding:20px 0 3px 5px; 
      letter-spacing: 2px;
+     font-weight: 600;
 }
 /* Centre the form within the page */
  form {
      margin:0 auto;
-     width:459px;
+     max-width:500px;
 }
-/* Style the text boxes */
+
+/* text box style */
  input, textarea {
-     width:439px;
+     width:95%;
      height:27px;
      background:white;
      border:1px solid #dedede;
@@ -86,6 +87,7 @@
      border-color: rgb(211, 211, 211);
      border-radius:5px;
 }
+
  textarea {
      height: 100px 
 }
@@ -98,12 +100,13 @@
  #submit {
      width:127px;
      height:38px;
+     font-weight: 600;
      border:solid;
      text-align: center;
-     margin-top:20px;
+     margin:20px 0;
      cursor:pointer;
-     color: black;
+     border-color: rgb(211, 211, 211);
 }
  #submit:hover {
-     opacity:.9;
+     opacity: .7;
 }
