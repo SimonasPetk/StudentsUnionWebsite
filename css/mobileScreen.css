@@ -33,10 +33,6 @@
         width: 150px;
     }
 
-    #flexSections div {
-        width: 250px;
-    }
-
     #sitemap {
         flex-direction: column;
     }
