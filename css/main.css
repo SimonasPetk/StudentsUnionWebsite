@@ -26,7 +26,7 @@
 }
 /*Styles applied to tagline*/
  #featured1{
-     padding: 5% 5% 0 5%;
+     padding: 15% 5% 0 5%;
      color: white;
      display: flex;
      font-size: 3em;
@@ -58,9 +58,10 @@
      text-align: center;
      border-radius: 230px;
      padding: 1% 0;
-     margin: 3% auto;
+     margin: 7% auto;
 }
 
+/*firefox shows colors differently*/
 @-moz-document url-prefix(){
 	#learnmore{
 		background: #d64036;
