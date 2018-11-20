@@ -1,6 +1,7 @@
 
 header {
     background-color: white;
+    position: relative;
 }
 
 
@@ -66,9 +67,8 @@ nav a:hover{
 
  .mobDropdown-content{
      display: none;
-	 position: fixed;
-     width: 100%;
-     background-color: #e6e6e6;
+	 position: absolute;
+     width: 100vw;
      margin: 120px 0 0 0;
      font-size: 150%;
      z-index: 2;
@@ -77,9 +77,10 @@ nav a:hover{
 
 
  .mobDropdown-content a{
-    width: 100%;
+    width: 100vw;
     text-decoration: none;
     border-bottom: 2px solid #9c9c9c;
+    background-color: #e6e6e6;
 	display: block;
     padding: 20px 0;
     flex-direction: column;
@@ -95,6 +96,6 @@ nav a:hover{
 
 
  .mobDropdown-content a:hover{
-     color: #9c9c9c;
+     background-color: #9c9c9c;
  }
 
