@@ -1,6 +1,7 @@
 
 header {
     background-color: white;
+    position: relative;
 }
 
 
@@ -95,6 +96,6 @@ nav a:hover{
 
 
  .mobDropdown-content a:hover{
-     color: #9c9c9c;
+     background-color: #9c9c9c;
  }
 
