@@ -131,11 +131,16 @@
 	}
     
     /*----------Support Options---------------*/
-    #wrapperFeatures{
-        display: flex;
+    #tagline{
         flex-direction: row;
     }
-
+    
+    #tagline p{
+        width: auto;
+        padding: 0;
+        margin: 5px;
+    }
+    
     #suFeatures {
         display: flex;
         flex-direction: row;
