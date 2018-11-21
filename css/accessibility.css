@@ -1,8 +1,26 @@
+@font-face{
+     font-family: Comfortaa;
+     src : url(../fonts/comfortaa.regular.ttf);
+}
+/*Applying font to the whole page*/
+ body, html {
+     font-family: "Comfortaa", sans-serif;
+     height: 100%;
+     margin: 0;
+     /*Only works on chrome and firefox*/
+     scroll-behavior: smooth;
+     background-color: #daecf2;
+}
+
+/* flex grow the wrapper that it would expand the whole page
+    and the footer would appear in the bottom */
 #wrapperAccessibility{
-    background-color: #daecf2;
     padding: 0;
+    overflow: hidden;
+    flex-grow: 1;
 }
  
+/* styling the heading */
 h1{
     font-weight: normal;
     font-size: 3em;
@@ -11,8 +29,24 @@ h1{
     padding: 10% 3%;
 }
 
+/* accessibility style */
 #statement{
     font-size: 1.5em;
+    text-align: justify;
     padding:  2% 10%;
     margin: 0;
+}
+
+/* that the content would not shrink if it is bigger than screen */
+footer, #statement, h1, #footerBottom {
+    flex-shrink: 0;
+
+}
+
+/* set the footer to the bottom of the screen cause there is not enough info*/
+#footerBottom {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    align-items: stretch;
 }
