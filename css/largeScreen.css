@@ -131,11 +131,18 @@
 	}
     
     /*----------Support Options---------------*/
-    #wrapperSupport #tagline{
+    #wrapperFeatures{
+        display: flex;
         flex-direction: row;
     }
 
+    #suFeatures {
+        display: flex;
+        flex-direction: row;
 
+    }
+
+    /*----------Contact Us Page---------------*/
         #flexContact, #flexSections, .flexImages {
         flex-direction: row;
     }

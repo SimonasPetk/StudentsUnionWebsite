@@ -12,6 +12,15 @@
 #wrapperFeatures{
     background-color: #daecf2;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#wrapperFeatures p{
+    text-align: center;
+    font-size: 2em;
+    padding: 0 5% 20px 7%;
+    margin: 0;
 }
 
 h2{
@@ -23,12 +32,26 @@ h2{
     padding: 20px 0;
 }
 
-#supportOptions p{
-    text-align: center;
-    font-size: 1.5em;
-    padding: 0 5% 20px 7%;
-    margin: 0;
+.featuresImages{
+    display: flex;
+     margin: auto;
+     width: 300px;
+     transition: transform .3s;
 }
+
+#ssid{
+    display: flex;
+     margin: auto;
+     width: 300px;
+     height: 300px;
+     border-style: solid;
+     border-color: black;
+     border-width: 4px;
+     border-radius: 50%;
+     transition: transform .3s;
+
+}
+
 
 .title{
     font-size: 2em;
