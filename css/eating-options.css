@@ -96,6 +96,7 @@
 /*Check out tag*/
  #checkOut{
      display: flex;
+     font-weight: normal;
      flex-direction: column;
      justify-content: center;
      padding: 2% 5%;
