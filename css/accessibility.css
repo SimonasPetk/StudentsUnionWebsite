@@ -9,13 +9,13 @@
      margin: 0;
      /*Only works on chrome and firefox*/
      scroll-behavior: smooth;
-     background-color: #daecf2;
 }
 
 /* flex grow the wrapper that it would expand the whole page
     and the footer would appear in the bottom */
 #wrapperAccessibility{
     padding: 0;
+    background-color: #daecf2;
     overflow: hidden;
     flex-grow: 1;
 }
