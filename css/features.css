@@ -23,6 +23,10 @@
     margin: 0;
 }
 
+article{
+    padding: 5% 0 0 0;
+}
+
 h2{
     font-weight: normal;
     display: block;
@@ -33,11 +37,17 @@ h2{
 }
 
 .featuresImages{
-    display: flex;
+     display: flex;
      margin: auto;
      width: 300px;
      transition: transform .3s;
 }
+
+.featuresImages:hover{
+    transform: scale(1.1);
+}
+
+
 
 #ssid{
     display: flex;
@@ -49,7 +59,10 @@ h2{
      border-width: 4px;
      border-radius: 50%;
      transition: transform .3s;
+}
 
+#ssid:hover{
+    transform: scale(1.1);
 }
 
 
