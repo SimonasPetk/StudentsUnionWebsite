@@ -71,8 +71,11 @@ h2{
 }
 
 .title > a{
-    text-decoration: underline;
-    color: black;
+    color: #0000EE;
+}
+
+.title > a:visited{
+    color: #551A8B;
 }
 
 .title > a:hover{
