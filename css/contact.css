@@ -50,6 +50,13 @@
      align-items: center;
      text-align: justify;
 }
+
+#accessibilityStatement{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 2% 5%;
+}
+
  #contactUs{
      display: flex;
      flex-direction: column;

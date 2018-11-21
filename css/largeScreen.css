@@ -138,6 +138,11 @@
         #flexContact, #flexSections, .flexImages {
         flex-direction: row;
     }
+    
+    /*----------Accessibility-----------------*/
+    #wrapperAccessibility h1{
+        padding: 2%;
+    }
 	
 }
 
