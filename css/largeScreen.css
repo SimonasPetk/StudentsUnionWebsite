@@ -156,6 +156,10 @@
     #wrapperAccessibility h1{
         padding: 5% 5% 0 5%;
     }
+    
+    #statement{
+        padding: 2% 10%;
+    }
 	
     /*----------Other places and support------*/
     #wrapperFeatures h2{

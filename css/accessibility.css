@@ -33,12 +33,13 @@ h1{
 #statement{
     font-size: 1.5em;
     text-align: justify;
-    padding:  2% 10%;
+    padding:  2% 0%;
     margin: 0;
 }
 
 #statement ul li{
     font-size: 1.5em;
+    padding: 2%;
 }
 
 /* that the content would not shrink if it is bigger than screen */
