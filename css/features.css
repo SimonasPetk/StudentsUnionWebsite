@@ -55,9 +55,17 @@
     transform: scale(1.1);
 }
 
+#suSocieties{
+    font-size: 0.7em;
+}
+
+#suSocietiesHeading{
+    font-size: 1.6em;
+}
+
 #studyPlaces ul{
     list-style: none;
-    font-size: 1.3em;
+    font-size: 1.4em;
     padding: 0 10%;
 }
 
