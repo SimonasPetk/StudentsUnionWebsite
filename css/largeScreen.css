@@ -103,9 +103,12 @@
 	
 	.bg #featured2{
 		font-size: 2em;
-		padding: 2% 0 0 0;
 		margin: 2% 0;
 	}
+    
+    .bg #learnmore{
+        margin: 25vh auto 0 auto;
+    }
 	
 	/*------------Eating options-------------*/
 	 #slogan{
