@@ -63,7 +63,7 @@
 /*Setting style for eating options*/
  .eatImages{
      display: flex;
-     margin: 10% auto 0 auto;
+     margin: 0 auto 0 auto;
      width: 200px;
      transition: transform .3s;
 }
