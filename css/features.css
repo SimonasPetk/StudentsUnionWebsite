@@ -59,40 +59,29 @@
 }
 
 #studyPlaces ul{
-=======
-#studyPlaces ul {
->>>>>>> 3d51dccfd3ea91c5fad7629b832c00140b2ed670
     list-style: none;
     font-size: 1.4em;
     padding: 0 10%;
 }
-<<<<<<< HEAD
 
-.title{
-    font-size: 1.3em;
-=======
-.title {
-    font-size: 1.7em;
->>>>>>> 3d51dccfd3ea91c5fad7629b832c00140b2ed670
-    font-weight: normal;
-    margin: 0;
-}
 #suSocieties{
     font-size: 0.7em;
 }
+
 #suSocietiesHeading{
     font-size: 1.6em;
 }
+
 #supportOptions p {
     font-size: 1.3em;
-<<<<<<< HEAD
 }
 
 .title{
     font-size: 2em;
-=======
->>>>>>> 3d51dccfd3ea91c5fad7629b832c00140b2ed670
+    font-weight: normal;
+     margin: 0;
 }
+
 #tagline {
     text-align: center;
     font-size: 1em;
