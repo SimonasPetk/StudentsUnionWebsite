@@ -83,10 +83,6 @@
      margin: 0;
 }
 
-.options{
-    display: flex;
-    flex-direction: column;
-}
 /*Follow on twitter button*/
  .follow{
     display: block;
@@ -99,7 +95,7 @@
     color: black;
     margin: auto;
 }
-/*Follow button background*/
+
  #eatingOptions a:hover{
      color: #9c9c9c;
 }

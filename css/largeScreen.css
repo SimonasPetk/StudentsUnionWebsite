@@ -128,17 +128,10 @@
     height:200px;
 	}
     
-    .eatSection{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    
-    #eatingOptions p{
-        width: 45vw;
-    }
-	
-	
+   .eatImages{
+		float: left;
+		padding: 0 3%;
+	}
     
     /*----------Support Options---------------*/
     #tagline{
