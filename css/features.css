@@ -23,17 +23,22 @@
     margin: 0;
 }
 
-article{
-    padding: 5% 0 0 0;
-}
-
 h2{
     font-weight: normal;
     display: block;
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
     margin: 0;
     padding: 20px 0;
+}
+
+#wrapperFeatures .heading{
+    font-weight: normal;
+    display: block;
+    font-size: 4em;
+    text-align: center;
+    margin: 0;
+    padding: 100px 0 50px 0;
 }
 
 .featuresImages{
@@ -47,27 +52,14 @@ h2{
     transform: scale(1.1);
 }
 
-
-
-#ssid{
-    display: flex;
-     margin: auto;
-     width: 300px;
-     height: 300px;
-     border-style: solid;
-     border-color: black;
-     border-width: 4px;
-     border-radius: 50%;
-     transition: transform .3s;
+#studyPlaces ul{
+    list-style: none;
+    font-size: 2em;
+    padding: 0 10%;
 }
-
-#ssid:hover{
-    transform: scale(1.1);
-}
-
 
 .title{
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 .title > a{
