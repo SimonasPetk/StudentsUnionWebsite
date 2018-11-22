@@ -165,5 +165,9 @@
     #wrapperFeatures .title{
         font-size: 2.5em;
     }
-}
+    
+    #wrapperFeatures .suFeatures{
+        flex-direction: row;
+    }
+}   
 

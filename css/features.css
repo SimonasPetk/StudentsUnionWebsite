@@ -23,13 +23,8 @@
     margin: 0;
 }
 
-h2{
-    font-weight: normal;
-    display: block;
-    font-size: 2.5em;
-    text-align: center;
-    margin: 0;
-    padding: 20px 0;
+.featureLink{
+    font-size: 1.5em;
 }
 
 #wrapperFeatures .heading{
@@ -41,10 +36,16 @@ h2{
     padding: 100px 0 50px 0;
 }
 
+#wrapperFeatures .suFeatures{
+        display: flex;
+        flex-direction: column;
+}
+
 .featuresImages{
      display: flex;
-     margin: auto;
+    margin: auto;
      width: 300px;
+    height: 300px;
      transition: transform .3s;
 }
 
