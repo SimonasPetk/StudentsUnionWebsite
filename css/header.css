@@ -1,84 +1,62 @@
-
 header {
     background-color: white;
     position: relative;
 }
-
-
-nav{
+nav {
     width: 50%;
     display: flex;
     float: right;
-    
 }
-
-
-nav a{
+nav a {
     color: black;
-    text-decoration:none;
-    margin:auto;
+    text-decoration: none;
+    margin: auto;
 }
-
-nav a:hover{
+nav a:hover {
     color: #c4c4c4;
     margin: auto;
 }
-
-
- #logo{
-	 display: block;
-     width: 280px;
-	 margin: auto;
- }
-
-
- nav{
-     display: none;
- }
-
- #hamburger{
-	 position: absolute;
-	 width: 35px;
-	 padding: 40px 10% 40px 5%;
- }
-
- .navMobDropdown{
-	 display: flex;
-	 flex-direction: row;
-     position: relative;
-     }
-
- .mobDropdown-content{
-     display: none;
-	 position: absolute;
-     width: 100vw;
-     margin: 120px 0 0 0;
-     font-size: 150%;
-     z-index: 2;
-     }
-
-
-
- .mobDropdown-content a{
+ #logo {
+    display: block;
+    width: 280px;
+    margin: auto;
+}
+ nav {
+    display: none;
+}
+ #hamburger {
+    position: absolute;
+    width: 35px;
+    padding: 40px 10% 40px 5%;
+}
+ .navMobDropdown {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+ .mobDropdown-content {
+    display: none;
+    position: absolute;
+    width: 100vw;
+    margin: 120px 0 0 0;
+    font-size: 150%;
+    z-index: 2;
+}
+ .mobDropdown-content a {
     width: 100vw;
     text-decoration: none;
     border-bottom: 2px solid #9c9c9c;
     background-color: #e6e6e6;
-	display: block;
+    display: block;
     padding: 20px 0;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     color: black;
- }
-
-     
+}
  .navMobDropdown:hover .mobDropdown-content {
     display: block;
- }
-
-
- .mobDropdown-content a:hover{
-     background-color: #9c9c9c;
- }
-
+}
+ .mobDropdown-content a:hover {
+    background-color: #9c9c9c;
+}
