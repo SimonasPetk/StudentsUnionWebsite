@@ -31,15 +31,12 @@ h1{
 
 /* accessibility style */
 #statement{
-    font-size: 1.2em;
-    text-align: center;
-    padding:  2% 0%;
-    margin: 0;
+    font-size: 2em;
+    margin: 2% 0;
 }
 
-#statement ul li{
-    font-size: 1.2em;
-    padding: 2%;
+ul li{
+    padding: 2% 0;
 }
 
 /* that the content would not shrink if it is bigger than screen */
