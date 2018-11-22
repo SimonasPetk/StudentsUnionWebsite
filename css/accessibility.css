@@ -23,18 +23,23 @@
 /* styling the heading */
 h1{
     font-weight: normal;
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
     margin: 0;
-    padding: 10% 3%;
+    padding: 80px 3% 5% 3%;
 }
 
 /* accessibility style */
 #statement{
-    font-size: 1.5em;
-    text-align: justify;
-    padding:  2% 10%;
+    font-size: 1.2em;
+    text-align: center;
+    padding:  2% 0%;
     margin: 0;
+}
+
+#statement ul li{
+    font-size: 1.2em;
+    padding: 2%;
 }
 
 /* that the content would not shrink if it is bigger than screen */

@@ -10,6 +10,18 @@ body,html {
     flex-direction: column;
 }
 
+#pageWrapper h1{
+    font-weight: normal;
+}
+
+#pageWrapper h3{
+    font-weight: normal;
+}
+
+#pageWrapper h5{
+    font-weight: normal;
+}
+
 #pageWrapper {
     background-color: #daecf2;
 }
@@ -38,7 +50,6 @@ figure img {
 
 .description h5,h1,h3 {
     text-align: center;
-    font-weight: 600;
 }
 
 .description h5 {

@@ -20,21 +20,6 @@
     .bg {
         height: 90vh;;
     }
-    
-    .bg #featured1{
-        padding: 30% 2% 2% 0;
-        font-size: 1.7em;
-    }
-
-    .bg #featured2 {
-        padding: 15% 2% 2% 0;
-        font-size: 1.5em;
-    }
-
-    .bg #learnmore {
-        font-size: 1.2em;
-        width: 170px;
-    }
 
 } 
 
@@ -66,7 +51,7 @@
 }
 /*Styles applied to tagline*/
  #featured1{
-     padding: 15% 5% 0 5%;
+     padding: 10vh 5% 0 5%;
      color: white;
      display: flex;
      font-size: 3em;
@@ -76,7 +61,7 @@
      margin: 0;
 }
  #featured2{
-     margin: 10% 0 0 0;
+     margin: 10vh 0 0 0;
      color:white;
      display: flex;
      font-size: 2em;
@@ -97,8 +82,23 @@
      justify-content: center;
      text-align: center;
      border-radius: 230px;
-     padding: 1% 0;
-     margin: 7% auto;
+     padding: 5px 0;
+     margin: 7vh auto;
+}
+
+@media screen and (max-height: 650px){
+    #featured1{
+        font-size: 6vh;
+    }
+    
+    #featured2{
+        font-size: 4vh;
+    }
+    
+    #learnmore{
+        width: 50vh;
+        font-size: 4vh;
+    }
 }
 
 /*firefox shows colors differently*/
