@@ -1,34 +1,30 @@
-/*Setting the font READ ABOUT THIS https://blog.fontspring.com/2011/02/the-new-bulletproof-font-face-syntax*/
- @font-face{
-     font-family: Comfortaa;
-     src : url(../fonts/comfortaa.regular.ttf);
+/*Setting the font*/
+ @font-face {
+    font-family: Comfortaa;
+    src: url(../fonts/comfortaa.regular.ttf);
 }
 /*Applying font to the whole page*/
  body, html {
-     font-family: "Comfortaa", sans-serif;
-     margin: 0;
+    font-family: "Comfortaa", sans-serif;
+    margin: 0;
 }
-
-#wrapperFeatures{
+#wrapperFeatures {
     background-color: #daecf2;
     text-align: center;
     display: flex;
     flex-direction: column;
 }
-
-#wrapperFeatures p{
+#wrapperFeatures p {
     text-align: center;
     font-size: 2em;
     padding: 0 5% 20px 7%;
     margin: 0;
 }
-
-.featureLink{
+.featureLink {
     font-size: 1.3em;
     font-weight: normal;
 }
-
-#wrapperFeatures .heading{
+#wrapperFeatures .heading {
     font-weight: normal;
     display: block;
     font-size: 3em;
@@ -36,25 +32,23 @@
     margin: auto;
     padding: 100px 0 50px 0;
 }
-
-#wrapperFeatures .suFeatures{
-        display: flex;
-        flex-direction: column;
-        padding: 3%;
-        font-size: 0.7em ;  
+#wrapperFeatures .suFeatures {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    font-size: 0.7em;
 }
-
-.featuresImages{
-     display: flex;
+.featuresImages {
+    display: flex;
     margin: auto;
-     width: 200px;
+    width: 200px;
     height: 200px;
-     transition: transform .3s;
+    transition: transform .3s;
 }
-
-.featuresImages:hover{
+.featuresImages:hover {
     transform: scale(1.1);
 }
+<<<<<<< HEAD
 
 #suSocieties p{
     font-size: 1.4em;
@@ -65,26 +59,41 @@
 }
 
 #studyPlaces ul{
+=======
+#studyPlaces ul {
+>>>>>>> 3d51dccfd3ea91c5fad7629b832c00140b2ed670
     list-style: none;
     font-size: 1.4em;
     padding: 0 10%;
 }
+<<<<<<< HEAD
 
 .title{
     font-size: 1.3em;
+=======
+.title {
+    font-size: 1.7em;
+>>>>>>> 3d51dccfd3ea91c5fad7629b832c00140b2ed670
     font-weight: normal;
     margin: 0;
 }
-
-#supportOptions p{
+#suSocieties{
+    font-size: 0.7em;
+}
+#suSocietiesHeading{
+    font-size: 1.6em;
+}
+#supportOptions p {
     font-size: 1.3em;
+<<<<<<< HEAD
 }
 
 .title{
     font-size: 2em;
+=======
+>>>>>>> 3d51dccfd3ea91c5fad7629b832c00140b2ed670
 }
-
-#tagline{
-   text-align: center;
+#tagline {
+    text-align: center;
     font-size: 1em;
 }

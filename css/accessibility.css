@@ -1,50 +1,42 @@
-@font-face{
-     font-family: Comfortaa;
-     src : url(../fonts/comfortaa.regular.ttf);
+@font-face {
+    font-family: Comfortaa;
+    src: url(../fonts/comfortaa.regular.ttf);
 }
 /*Applying font to the whole page*/
  body, html {
-     font-family: "Comfortaa", sans-serif;
-     height: 100%;
-     margin: 0;
-     /*Only works on chrome and firefox*/
-     scroll-behavior: smooth;
+    font-family: "Comfortaa", sans-serif;
+    height: 100%;
+    margin: 0;
+    /*Only works on chrome and firefox*/
+ scroll-behavior: smooth;
 }
-
-/* flex grow the wrapper that it would expand the whole page
-    and the footer would appear in the bottom */
-#wrapperAccessibility{
+/* flex grow the wrapper that it would expand the whole page and the footer would appear in the bottom */
+#wrapperAccessibility {
     padding: 0;
     background-color: #daecf2;
     overflow: hidden;
     flex-grow: 1;
 }
- 
-/* styling the heading */
-h1{
+ /* styling the heading */
+h1 {
     font-weight: normal;
     font-size: 4em;
     text-align: center;
     margin: 0;
     padding: 80px 3% 5% 3%;
 }
-
 /* accessibility style */
-#statement{
+#statement {
     font-size: 2em;
     margin: 2% 0;
 }
-
-ul li{
+ul li {
     padding: 2% 0;
 }
-
 /* that the content would not shrink if it is bigger than screen */
 footer, #statement, h1, #footerBottom {
     flex-shrink: 0;
-
 }
-
 /* set the footer to the bottom of the screen cause there is not enough info*/
 #footerBottom {
     display: flex;

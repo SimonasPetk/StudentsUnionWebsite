@@ -1,90 +1,82 @@
 /*---------------------------------------------------------------*/
 /*Styles for eating options*/
-
-/*Setting the font READ ABOUT THIS https://blog.fontspring.com/2011/02/the-new-bulletproof-font-face-syntax*/
- @font-face{
-     font-family: Comfortaa;
-     src : url(../fonts/comfortaa.regular.ttf);
+/*Setting the font*/
+ @font-face {
+    font-family: Comfortaa;
+    src: url(../fonts/comfortaa.regular.ttf);
 }
 /*Applying font to the whole page*/
  body, html {
-     font-family: "Comfortaa", sans-serif;
-     height: 100%;
-     margin: 0;
+    font-family: "Comfortaa", sans-serif;
+    height: 100%;
+    margin: 0;
 }
-
-
 /*Background color and font color*/
- #wrapperEatingOptions{
-     color: Black;
-     background-color: #daecf2;
+ #wrapperEatingOptions {
+    color: Black;
+    background-color: #daecf2;
 }
 /*de-styling Links in the page*/
 /*Catchy tagling*/
- #slogan{
-     display: flex;
-     flex-direction: column;
-     text-align: center;
-	 justify-content: center;
-	 padding: 2% 0 0 0;
-     font-size: 2em;
+ #slogan {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 2% 0 0 0;
+    font-size: 2em;
 }
 /*styles for heart icon*/
- #heart{
+ #heart {
     display: block;
-	margin: auto;
+    margin: auto;
     width: 150px;
-    height:150px;
+    height: 150px;
     transition: transform .3s ease;
 }
 /*Transition effect for heart*/
- #heart:hover{
-     transform: scale(1.1);
+ #heart:hover {
+    transform: scale(1.1);
 }
-
 /*Check out tag*/
- #checkOut{
-     display: flex;
-     font-weight: normal;
-     flex-direction: column;
-     justify-content: center;
-     padding: 2% 5%;
-     text-align: center;
-     font-size: 2em;
+ #checkOut {
+    display: flex;
+    font-weight: normal;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2% 5%;
+    text-align: center;
+    font-size: 2em;
 }
-
-#eatingOptions .eatLink{
+#eatingOptions .eatLink {
     display: block;
     margin: 15px auto -1.5% auto;
     font-size: 2em;
     text-align: center;
 }
-
 /*Setting style for eating options*/
- .eatImages{
-     display: flex;
-     margin: 10% auto 0 auto;
-     width: 200px;
-     transition: transform .3s;
+ .eatImages {
+    display: flex;
+    margin: 10% auto 0 auto;
+    width: 200px;
+    transition: transform .3s;
 }
 /*Transition for eating options images*/
- .eatImages:hover{
-     transform: scale(1.1);
+ .eatImages:hover {
+    transform: scale(1.1);
 }
-
 /*Eating options info*/
- #eatingOptions p{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     text-align: center;
-     padding: 2% 5%;
-     font-size: 1.4em;
-     margin: 0;
+ #eatingOptions p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 2% 5%;
+    font-size: 1.4em;
+    margin: 0;
 }
-
 /*Follow on twitter button*/
- .follow{
+ .follow {
     display: block;
     flex-direction: column;
     justify-content: center;
@@ -95,7 +87,6 @@
     color: black;
     margin: auto;
 }
-
- #eatingOptions a:hover{
-     color: #9c9c9c;
+ #eatingOptions a:hover {
+    color: #9c9c9c;
 }

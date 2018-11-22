@@ -1,127 +1,110 @@
 /*Applying font to the whole page*/
- @font-face{
-     font-family: Comfortaa;
-     src : url(../fonts/comfortaa.regular.ttf);
+ @font-face {
+    font-family: Comfortaa;
+    src: url(../fonts/comfortaa.regular.ttf);
 }
  body, html {
-     font-family: "Comfortaa", sans-serif;
-     margin:0;
-     height: 100%;
+    font-family: "Comfortaa", sans-serif;
+    margin: 0;
+    height: 100%;
 }
-
 #developers h2 {
-     padding: 20px 0 0 0;
-     margin: 0;
-     font-weight: normal;
-}
-
-#developers h3{
+    padding: 20px 0 0 0;
+    margin: 0;
     font-weight: normal;
 }
-h4{
-    font-weight: normal
+#developers h3 {
+    font-weight: normal;
 }
-
+h4 {
+    font-weight: normal}
 /* To wrap the contact page and put colouring into it*/
-#wrapperContact{
-    background-color:#daecf2;
+#wrapperContact {
+    background-color: #daecf2;
     height: inherit;
 }
-
- 
  #developers {
-     text-align: center;
+    text-align: center;
 }
-
 /* display info of the developers in the flex box*/
  #flexContact {
-     display: flex;
-     justify-content: center;
-     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-
-/* set dimensions of images that it would not exceed
- that and make images round if they are not */
+/* set dimensions of images that it would not exceed that and make images round if they are not */
 .about img {
-     border-radius: 50%;
-     width: 200px;
-     height: 200px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
-
-
  .about p, h4 {
-     margin: 2%;
+    margin: 2%;
 }
-
- .about .aboutText{
-     margin: 10px 10%;
-     align-items: center;
-     text-align: justify;
+ .about .aboutText {
+    margin: 10px 10%;
+    align-items: center;
+    text-align: justify;
 }
-
-#accessibilityStatement{
+#accessibilityStatement {
     text-align: center;
     font-size: 1em;
     padding: 2% 9%;
 }
-
- #contactUs{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     text-align: center;
-     padding-top: 30px;
-     margin: 0;
+ #contactUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    margin: 0;
 }
- #contactUs p, #contactUs h2{
-     padding: 0 0 20px 0;
-     margin: 0;
+ #contactUs p, #contactUs h2 {
+    padding: 0 0 20px 0;
+    margin: 0;
 }
 /* Textarea label styling */
  label {
-     display:block;
-     padding:20px 0 3px 5px; 
-     letter-spacing: 2px;
-     font-weight: 600;
+    display: block;
+    padding: 20px 0 3px 5px;
+    letter-spacing: 2px;
+    font-weight: 600;
 }
 /* Centre the form within the page */
  form {
-     margin:0 auto;
-     max-width:500px;
+    margin: 0 auto;
+    max-width: 500px;
 }
-
 /* text box style */
  input, textarea {
-     width:95%;
-     height:27px;
-     background:white;
-     border:1px solid #dedede;
-     padding:10px;
-     margin-top:3px;
-     font-size:0.9em;
-     border-color: rgb(211, 211, 211);
-     border-radius:5px;
+    width: 95%;
+    height: 27px;
+    background: white;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 0.9em;
+    border-color: rgb(211, 211, 211);
+    border-radius: 5px;
 }
-
  textarea {
-     height: 100px 
-}
+    height: 100px }
 /* when someone selects the form field it creates a silver border*/
  input:focus, textarea:focus {
-     border: 2px;
-     border-style: solid;
-     border-color: rgb(192, 192, 192);
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
 }
  #submit {
-     width:127px;
-     height:38px;
-     font-weight: 600;
-     border:solid;
-     text-align: center;
-     margin:20px 0;
-     cursor:pointer;
-     border-color: rgb(211, 211, 211);
+    width: 127px;
+    height: 38px;
+    font-weight: 600;
+    border: solid;
+    text-align: center;
+    margin: 20px 0;
+    cursor: pointer;
+    border-color: rgb(211, 211, 211);
 }
  #submit:hover {
-     opacity: .7;
+    opacity: .7;
 }
