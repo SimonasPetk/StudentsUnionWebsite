@@ -39,6 +39,7 @@
 #wrapperFeatures .suFeatures{
         display: flex;
         flex-direction: column;
+        padding: 3%
 }
 
 .featuresImages{
@@ -61,6 +62,7 @@
 
 .title{
     font-size: 2.5em;
+    font-weight: normal;
 }
 
 .title > a{
@@ -76,13 +78,5 @@
 }
 
 #tagline{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#tagline p{
-    font-weight: normal;
-    font-size: 2em;
-    margin: -8px;
+   text-align: center;
 }
