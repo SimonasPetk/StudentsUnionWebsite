@@ -42,6 +42,17 @@
      transform: scale(1.1);
 }
 
+/*Check out tag*/
+ #checkOut{
+     display: flex;
+     font-weight: normal;
+     flex-direction: column;
+     justify-content: center;
+     padding: 2% 5%;
+     text-align: center;
+     font-size: 2em;
+}
+
 #eatingOptions .eatLink{
     display: block;
     margin: 15px auto -1.5% auto;
@@ -52,7 +63,7 @@
 /*Setting style for eating options*/
  .eatImages{
      display: flex;
-     margin: auto;
+     margin: 10% auto 0 auto;
      width: 200px;
      transition: transform .3s;
 }
@@ -86,14 +97,4 @@
 /*Follow button background*/
  #eatingOptions a:hover{
      color: #9c9c9c;
-}
-/*Check out tag*/
- #checkOut{
-     display: flex;
-     font-weight: normal;
-     flex-direction: column;
-     justify-content: center;
-     padding: 2% 5%;
-     text-align: center;
-     font-size: 3em;
 }
