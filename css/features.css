@@ -24,7 +24,7 @@
 }
 
 .featureLink{
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 #wrapperFeatures .heading{
@@ -39,7 +39,8 @@
 #wrapperFeatures .suFeatures{
         display: flex;
         flex-direction: column;
-        padding: 3%
+        padding: 3%;
+        font-size: 1em ;  
 }
 
 .featuresImages{
