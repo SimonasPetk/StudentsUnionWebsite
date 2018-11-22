@@ -131,6 +131,7 @@
    .eatImages{
 		float: left;
 		padding: 0 3%;
+        margin: 0 auto 0 auto;
 	}
     
     /*----------Support Options---------------*/
