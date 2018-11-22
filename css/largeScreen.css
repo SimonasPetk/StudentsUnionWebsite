@@ -98,13 +98,13 @@
         width: 100vw;
 		font-size: 4em;
         text-align: center;
-		padding: 5% 0 0 0;
+		padding: 10% 0 0 0;
 	}
 	
 	.bg #featured2{
 		font-size: 2em;
 		padding: 2% 0 0 0;
-		margin: 5% 0 0 0;
+		margin: 2% 0;
 	}
 	
 	/*------------Eating options-------------*/
@@ -174,4 +174,3 @@
         flex-direction: row;
     }
 }   
-
