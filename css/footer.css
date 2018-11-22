@@ -42,7 +42,7 @@ footer h5, footer p {
 }
 
 #flexSections div:not(#sitemap) {
-    width: 250px;
+    width: 260px;
     margin: 5px;
     text-align: center;
 }
