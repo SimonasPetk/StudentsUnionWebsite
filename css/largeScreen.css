@@ -127,11 +127,18 @@
     width: 200px;
     height:200px;
 	}
+    
+    .eatSection{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    #eatingOptions p{
+        width: 45vw;
+    }
 	
-	.eatImages{
-		float: left;
-		padding: 0 3%;
-	}
+	
     
     /*----------Support Options---------------*/
     #tagline{
@@ -153,6 +160,10 @@
     /*----------Contact Us Page---------------*/
         #flexContact, #flexSections, .flexImages {
         flex-direction: row;
+    }
+    
+    .about{
+    width: 40vw;
     }
     
     /*----------Accessibility-----------------*/
