@@ -25,6 +25,7 @@
 
 .featureLink{
     font-size: 1.3em;
+    font-weight: normal;
 }
 
 #wrapperFeatures .heading{
@@ -55,12 +56,12 @@
     transform: scale(1.1);
 }
 
-#suSocieties{
-    font-size: 0.7em;
+#suSocieties p{
+    font-size: 1.4em;
 }
 
-#suSocietiesHeading{
-    font-size: 1.5em;
+#suSocietiesHeading h2{
+    font-size: 1em;
 }
 
 #studyPlaces ul{
@@ -70,14 +71,17 @@
 }
 
 .title{
-    font-size: 1.7em;
+    font-size: 1.3em;
     font-weight: normal;
     margin: 0;
 }
 
 #supportOptions p{
     font-size: 1.3em;
-    
+}
+
+.title{
+    font-size: 2em;
 }
 
 #tagline{

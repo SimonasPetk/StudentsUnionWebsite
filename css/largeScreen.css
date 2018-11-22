@@ -170,13 +170,6 @@
     }
 	
     /*----------Other places and support------*/
-    #wrapperFeatures h2{
-        font-size: 2.5em;
-    }
-    
-    #wrapperFeatures .title{
-        font-size: 2.5em;
-    }
     
     #wrapperFeatures .suFeatures{
         flex-direction: row;
