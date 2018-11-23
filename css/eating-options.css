@@ -50,14 +50,14 @@
 }
 #eatingOptions .eatLink {
     display: block;
-    justify-content: center;
-    font-size: 1.5em;
+    margin: 15px auto -1.5% auto;
+    font-size: 2em;
     text-align: center;
 }
 /*Setting style for eating options*/
  .eatImages {
     display: flex;
-    margin: 5% auto 0 auto;
+    margin: 10% auto 0 auto;
     width: 200px;
     transition: transform .3s;
 }
@@ -66,7 +66,7 @@
     transform: scale(1.1);
 }
 /*Eating options info*/
-#eatingOptions{
+ #eatingOptions p {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,7 +75,6 @@
     font-size: 1.4em;
     margin: 0;
 }
-
 /*Follow on twitter button*/
  .follow {
     display: block;
