@@ -15,6 +15,7 @@
     }
     .bg {
         height: 90vh;
+        min-height: 700px
     }
     .bg #learnmore{
         width: 50vw;
