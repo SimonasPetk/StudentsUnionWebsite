@@ -10,6 +10,7 @@
     /*Only works on chrome and firefox*/
  scroll-behavior: smooth;
 }
+
 /* flex grow the wrapper that it would expand the whole page and the footer would appear in the bottom */
 #wrapperAccessibility {
     padding: 0;

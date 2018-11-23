@@ -1,27 +1,3 @@
-/*for very very small devices*/
-@media screen and (max-width: 450px) {
-    /*--------mobile header--------*/
-    .navigation-bar #logo {
-        width: 40%;
-    }
-    .navMobDropdown #hamburger {
-        padding-top: 5%;
-        width: 7%;
-    }
-    .navMobDropdown .mobDropdown-content {
-        width: 100px;
-        font-size: 1em;
-        margin: 15% 0 0;
-    }
-    .bg {
-        height: 90vh;
-    }
-    .bg #learnmore{
-        width: 50vw;
-        font-size: 5vw;
-    }
-    
-}
  @font-face {
     font-family: Comfortaa;
     src: url(../fonts/comfortaa.regular.ttf);
@@ -41,29 +17,32 @@
  .bg {
     width: 100%;
     height: 100vh;
+    min-height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     /*Background of lower quality for mobile users*/
     background-image: url("../images/Home-Featured-min.jpg");
-    display: grid;
-    align-items: center;
 }
 /*Styles applied to tagline*/
  #featured1 {
+    display: block;
     color: white;
-    font-size: 3em;
     text-align: center;
-    margin: 0;
+    font-size: 3em;
+    padding: 20% 2% 0 2%;
 }
  #featured2 {
+    display: block;
     color: white;
     font-size: 2em;
     text-align: center;
+    padding: 5% 0;
     letter-spacing: 4px;
 }
 /*Learn more button*/
  #learnmore {
+     display: block;
     width: 250px;
     font-size: 1.5em;
     background: #d64d4d;
@@ -72,20 +51,9 @@
     color: Black;
     border-radius: 230px;
     padding: 5px 0;
-    margin: -5% auto 25% auto;
+    margin: auto;
 }
-@media screen and (max-height: 650px) {
-    #featured1 {
-    font-size: 6vh;
-}
- #featured2 {
-    font-size: 4vh;
-}
- #learnmore {
-    width: 50vh;
-    font-size: 4vh;
-}
-}
+
 /*firefox shows colors differently*/
 @-moz-document url-prefix() {
     #learnmore {
