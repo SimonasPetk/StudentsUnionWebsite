@@ -8,7 +8,7 @@
     height: 100%;
     margin: 0;
     /*Only works on chrome and firefox*/
- scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
  #wrapperMain {
     background-color: #daecf2;
@@ -23,6 +23,7 @@
     background-size: cover;
     /*Background of lower quality for mobile users*/
     background-image: url("../images/Home-Featured-min.jpg");
+    margin-top: -18px;
 }
 /*Styles applied to tagline*/
  #featured1 {

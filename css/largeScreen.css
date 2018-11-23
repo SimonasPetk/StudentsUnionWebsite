@@ -1,4 +1,5 @@
 @media screen and (min-width: 1000px){
+    /*Background is higher quality*/
     .bg{
     width:100%;
     height: 95vh; 
@@ -11,7 +12,7 @@
     align-items: center;
     margin: auto;
     }
-    
+
     nav{
         display: flex;
         flex-direction: row;
@@ -24,6 +25,7 @@
         width: 200px;
     }
     
+    /*------------Desktop navigation-------------*/
     nav a{
         font-size: 1.5em;
         padding: 0;
@@ -33,21 +35,7 @@
         padding: 0;
     }
     
-    #hangOut{
-        padding: 5% 2%;
-    }
-    
-    #featuredIcons {
-        flex-direction: row;
-        max-width: 80%;
-        margin: 10px auto;
-    }
-
-    #sitemap {
-        flex-direction: row;
-    }
-
-    
+    /*Inline horizontal nav*/
     .navDropdown{
     position: relative;
     display: flex;
@@ -73,7 +61,8 @@
         font-size: 1.5em;
         padding: 0;
     }
-
+    
+    /*Cursor is normal when hovering on nav more*/
     .navDropdown:hover{
         cursor: default;
     }
@@ -88,16 +77,21 @@
         color: #9c9c9c;
         padding: 0;
     }
-     
+    
+    /*Hamburger icon hidden*/
     #hamburger{
         display: none;
     }
-     
+    
+    /*Mobile dropdown is hidden*/
     .navMobDropdown{
         display: none;
     }
 	
-	.bg #featured1{
+    /*------------Nav end--------------*/
+	
+    /*Increased font in the home page*/
+    .bg #featured1{
         padding: 0;
 		font-size: 3.5em;
 	}
@@ -111,6 +105,19 @@
         font-size: 2em;
     }
 	
+    #hangOut{
+        padding: 5% 2%;
+    }
+    
+    #featuredIcons {
+        flex-direction: row;
+        max-width: 80%;
+        margin: 10px auto;
+    }
+
+    #sitemap {
+        flex-direction: row;
+    }
 	/*------------Eating options-------------*/
 	 #slogan{
     width: 100vw;
@@ -134,26 +141,9 @@
 		padding: 0 3%;
         margin: 0 auto 0 auto;
 	}
-    
-    /*----------Support Options---------------*/
-    #tagline{
-        flex-direction: row;
-    }
-    
-    #tagline p{
-        width: auto;
-        padding: 0;
-        margin: 5px;
-    }
-    
-    #suFeatures {
-        display: flex;
-        flex-direction: row;
-
-    }
 
     /*----------Contact Us Page---------------*/
-        #flexContact, #flexSections, .flexImages {
+    #flexContact, #flexSections, .flexImages {
         flex-direction: row;
     }
     
@@ -173,6 +163,11 @@
     /*----------Other places and support------*/
     
     #wrapperFeatures .suFeatures{
+        flex-direction: row;
+    }
+    
+    #suFeatures {
+        display: flex;
         flex-direction: row;
     }
 }   
