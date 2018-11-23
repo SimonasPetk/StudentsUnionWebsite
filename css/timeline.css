@@ -11,6 +11,9 @@ body,html {
     display: flex;
     flex-direction: column;
 }
+body h1, h3, h5{
+    font-weight: normal;
+}
 #pageWrapper {
     background-color: #daecf2;
 }
