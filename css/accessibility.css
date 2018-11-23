@@ -13,7 +13,7 @@
 
 /* flex grow the wrapper that it would expand the whole page and the footer would appear in the bottom */
 #wrapperAccessibility {
-    padding: 0;
+    padding: 0 2%;
     background-color: #daecf2;
     overflow: hidden;
     flex-grow: 1;
@@ -21,18 +21,18 @@
  /* styling the heading */
 h1 {
     font-weight: normal;
-    font-size: 4em;
+    font-size: 2em;
     text-align: center;
     margin: 0;
-    padding: 80px 3% 5% 3%;
+    padding: 40px 3% 5% 3%;
 }
 /* accessibility style */
-#statement {
-    font-size: 2em;
-    margin: 2% 0;
+#wrapperAccessibility #statement {
+    font-size: 1em;
+    margin: 1%;
 }
 ul li {
-    padding: 2% 0;
+    padding: 1%;
 }
 /* that the content would not shrink if it is bigger than screen */
 footer, #statement, h1, #footerBottom {

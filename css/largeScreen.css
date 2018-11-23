@@ -156,7 +156,10 @@
         padding: 5% 5% 0 5%;
     }
     
-    #statement{
+    #wrapperAccessibility ul li{
+    }
+    
+    #wrapperAccessibility #statement{
         padding: 2% 10%;
     }
 	
