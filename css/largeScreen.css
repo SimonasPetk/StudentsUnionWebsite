@@ -133,6 +133,28 @@
         margin: 0 auto 0 auto;
 	}
     
+    .flexEat{
+        display: flex;
+        flex-direction: row;
+        padding: 3% 0;
+    }
+    
+    .eatImages{
+        justify-content: flex-start;
+    }
+
+    .info{
+        justify-content: center;
+        width: 60%;
+        margin: 0 0 0 4%;
+    }
+    
+    .times{
+        justify-content: flex-end;
+        width: 20%;
+    }
+
+    
     /*----------Support Options---------------*/
     #tagline{
         flex-direction: row;
