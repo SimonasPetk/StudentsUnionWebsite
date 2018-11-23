@@ -176,7 +176,7 @@
 }   
 
 /*For users with widescreen desktops*/
-@media(min-width: 1500px) and (max-height:900px){
+@media(min-width: 1080px) and (max-height:900px){
     .bg #featured1{
         margin: 25vh auto 0 auto;
 		font-size: 10vh;
