@@ -14,12 +14,7 @@
     display: flex;
     flex-direction: column;
 }
-#wrapperFeatures p {
-    text-align: center;
-    font-size: 2em;
-    padding: 0 5% 20px 7%;
-    margin: 0;
-}
+
 .featureLink {
     font-size: 1.3em;
     font-weight: normal;
@@ -36,7 +31,7 @@
     display: flex;
     flex-direction: column;
     padding: 3%;
-    font-size: 0.7em;
+    font-size: 1.4em;
 }
 .featuresImages {
     display: flex;
@@ -51,6 +46,7 @@
 
 #suSocieties p{
     font-size: 1.4em;
+    padding: 0 5%;
 }
 
 #suSocietiesHeading h2{
@@ -73,6 +69,11 @@
 
 #supportOptions p {
     font-size: 1.4em;
+    padding: 0 5%;
+}
+
+#supportSlogan{
+    font-size: 1.7em;
 }
 
 .title{
