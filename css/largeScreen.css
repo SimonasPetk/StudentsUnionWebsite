@@ -141,9 +141,13 @@
     
    .eatImages{
 		float: left;
-		padding: 0 3%;
+		padding: 0 4%;
         margin: 0 auto 0 auto;
 	}
+    
+    #eatingOptions p{
+        padding: 2% 8% 2% 0;
+    }
 
     /*----------Contact Us Page---------------*/
     #flexContact, #flexSections, .flexImages {
@@ -173,8 +177,7 @@
         flex-direction: row;
     }
     
-    #suFeatures {
-        display: flex;
-        flex-direction: row;
+    #wrapperFeatures .suFeatures p{
+       padding: 0 5%;
     }
 }   
