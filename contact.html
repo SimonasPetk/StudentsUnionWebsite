@@ -74,11 +74,11 @@
         <form name="contactForm" action="http://www.dcs.shef.ac.uk/cgi-intranet/public/FormMail.pl" method="get">
           <input type="hidden" name="recipient" value = "spetkevicius1@sheffield.ac.uk">
           <label>Name</label>
-          <input name="name" type="text" maxlength="100" placeholder="Type Your Name Here">
+          <input name="name" type="text" maxlength="100" placeholder="Type Your Name Here" required>
           <label>Email</label>
-          <input name="email" type="email" placeholder="Type Your Email Address Here">
+          <input name="email" type="email" placeholder="Type Your Email Address Here" required>
           <label>Message</label>
-          <textarea name="message" placeholder="Type Your Message Here"></textarea>
+          <textarea name="message" placeholder="Type Your Message Here" required></textarea>
           <input id="submit" name="submit" type="submit" value="Submit">
         </form>
       </div>
