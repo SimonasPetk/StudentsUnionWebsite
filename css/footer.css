@@ -52,10 +52,9 @@ footer h5, footer p {
     flex-direction: column;
     align-items: center;
 }
-/* set the maximum width that the content would not extend too much */
-#sitemap {
-    max-width: 90%;
-    margin: 0;
+/*  that the content of the section would align with other content */
+#footerFourth h5{
+    margin-bottom: 0px;
 }
 /* display sitemap content in columns */
 .sitemapColumn {

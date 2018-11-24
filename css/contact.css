@@ -1,56 +1,55 @@
-/*Applying font to the whole page*/
+/* Applying font to the whole page */
  @font-face {
     font-family: Comfortaa;
     src: url(../fonts/comfortaa.regular.ttf);
 }
- body, html {
+body, html {
     font-family: "Comfortaa", sans-serif;
     margin: 0;
     height: 100%;
 }
+/* Add padding before the first heading */
 #developers h2 {
     padding: 20px 0 0 0;
     margin: 0;
-    font-weight: normal;
 }
-#developers h3 {
-    font-weight: normal;
-}
-h4 {
-    font-weight: normal}
 /* To wrap the contact page and put colouring into it*/
 #wrapperContact {
     background-color: #daecf2;
     height: inherit;
 }
- #developers {
+/* align text in the center */
+#developers {
     text-align: center;
 }
-/* display info of the developers in the flex box*/
- #flexContact {
+/* Display info of the developers in the flex box*/
+#flexContact {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-/* set dimensions of images that it would not exceed that and make images round if they are not */
+/* Set dimensions of images that it would not increase in size unexpectedly and make images round if they are not */
 .about img {
     border-radius: 50%;
     width: 200px;
     height: 200px;
 }
- .about p, h4 {
+/* Set margin for text */
+.about p, h4 {
     margin: 2%;
 }
- .about .aboutText {
+/* About the developers styling */
+.about .aboutText {
     margin: 10px 10%;
     align-items: center;
     text-align: justify;
 }
+/* Styling the accessibility statement */
 #accessibilityStatement {
     text-align: center;
-    font-size: 1em;
     padding: 2% 9%;
 }
+/* Info about us in flex box */
  #contactUs {
     display: flex;
     flex-direction: column;
@@ -59,24 +58,25 @@ h4 {
     padding-top: 30px;
     margin: 0;
 }
- #contactUs p, #contactUs h2 {
+/* header and subtitle padding and margins */
+#contactUs p, #contactUs h2 {
     padding: 0 0 20px 0;
     margin: 0;
 }
 /* Textarea label styling */
- label {
+label {
     display: block;
     padding: 20px 0 3px 5px;
     letter-spacing: 2px;
     font-weight: 600;
 }
 /* Centre the form within the page */
- form {
+form {
     margin: 0 auto;
     max-width: 500px;
 }
-/* text box style */
- input, textarea {
+/* Text box style */
+input, textarea {
     width: 95%;
     height: 27px;
     background: white;
@@ -87,15 +87,18 @@ h4 {
     border-color: rgb(211, 211, 211);
     border-radius: 5px;
 }
- textarea {
-    height: 100px }
-/* when someone selects the form field it creates a silver border*/
- input:focus, textarea:focus {
+/* text area size */
+textarea {
+    height: 100px;
+}
+/* When someone selects the form field it creates a silver border */
+input:focus, textarea:focus {
     border: 2px;
     border-style: solid;
     border-color: rgb(192, 192, 192);
 }
- #submit {
+/* submit button stylying */
+#submit {
     width: 127px;
     height: 38px;
     font-weight: 600;
@@ -105,6 +108,7 @@ h4 {
     cursor: pointer;
     border-color: rgb(211, 211, 211);
 }
- #submit:hover {
+/* That the user would see that he hovered over form submition button */
+#submit:hover {
     opacity: .7;
 }

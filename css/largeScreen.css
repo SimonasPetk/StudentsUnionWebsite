@@ -150,6 +150,7 @@
     }
 
     /*----------Contact Us Page---------------*/
+    /* Changing the direction */
     #flexContact, #flexSections, .flexImages {
         flex-direction: row;
     }
@@ -172,7 +173,7 @@
     }
 	
     /*----------Other places and support------*/
-    
+    /* Changing the direction */
     #wrapperFeatures .suFeatures{
         flex-direction: row;
     }
