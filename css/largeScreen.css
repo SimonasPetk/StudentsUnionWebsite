@@ -58,7 +58,12 @@
     }
     
     .dropdown-content a{
+        display: grid;
+        align-items: center;
+        text-align: center;
         font-size: 1.5em;
+        width: inherit;
+        height: inherit;
         padding: 0;
     }
     
@@ -74,7 +79,8 @@
     }
     
     .dropdown-content a:hover{
-        color: #9c9c9c;
+        background-color:  #9c9c9c;
+        color: black;
         padding: 0;
     }
     
@@ -101,7 +107,7 @@
 	}
     
     .bg #learnmore{
-        width: 250px;
+        width: 300px;
         font-size: 2em;
     }
 	
