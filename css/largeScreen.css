@@ -180,4 +180,17 @@
     #wrapperFeatures .suFeatures p{
        padding: 0 5%;
     }
+    #wrapperFeatures .heading {
+        font-size: 3em;
+    }
+    #suSocieties p{
+     padding: 0 20%;   
+    }
+    #studyPlaces ul{
+        padding: 0 20%;
+    }
+    #supportOptions p {
+        padding: 0 20%;
+    }
+    
 }   

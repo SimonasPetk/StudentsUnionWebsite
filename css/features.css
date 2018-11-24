@@ -22,10 +22,10 @@
 #wrapperFeatures .heading {
     font-weight: normal;
     display: block;
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
     margin: auto;
-    padding: 100px 0 50px 0;
+    padding: 100px 5% 0 5%;
 }
 #wrapperFeatures .suFeatures {
     display: flex;
@@ -47,7 +47,7 @@
 
 #suSocieties p{
     font-size: 1.4em;
-    padding: 0 20%;
+    padding: 0 5%;
 }
 
 #suSocietiesHeading h2{
@@ -58,7 +58,7 @@
     list-style: none;
     font-size: 1.4em;
     text-align: center;
-    padding: 0 20%;
+    padding: 0 5%;
 }
 
 #studyPlaces p{
@@ -74,7 +74,7 @@
 
 #supportOptions p {
     font-size: 1.4em;
-    padding: 0 20%;
+    padding: 0 5%;
 }
 
 #supportSlogan{
