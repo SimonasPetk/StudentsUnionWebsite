@@ -40,6 +40,7 @@
     height: 200px;
     padding: 0 5%;
     transition: transform .3s;
+    z-index: 1;
 }
 .featuresImages:hover {
     transform: scale(1.1);
