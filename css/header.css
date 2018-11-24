@@ -23,7 +23,7 @@ nav a:hover {
  #hamburger {
     position: absolute;
     width: 35px;
-    padding: 40px 10% 40px 5%;
+    padding: 40px 10% 55px 5%;
 }
  .navMobDropdown {
     display: flex;
