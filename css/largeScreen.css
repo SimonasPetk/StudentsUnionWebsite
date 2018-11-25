@@ -149,11 +149,9 @@
     #flexContact, #flexSections, .flexImages {
         flex-direction: row;
     }
-    
     .about{
         width: 40vw;
     }
-    
     /*----------Accessibility-----------------*/
     #wrapperAccessibility h1{
         padding: 5% 5% 0 5%;
@@ -188,5 +186,9 @@
     #supportOptions p {
         padding: 0 20%;
     }
+    /* footer */
+    #flexSections {
+        align-items: flex-start;
+    }   
     
 }   

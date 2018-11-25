@@ -21,6 +21,10 @@
         width: 50vw;
         font-size: 5vw;
     }
+    /* contact form size */
+    form {
+     max-width: 90%;
+    }
     /* footer */
     #sitemap {
         flex-direction: column;

@@ -27,9 +27,13 @@ footer h5, footer p {
 #flexSections {
     display: flex;
     margin: auto;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     height: inherit;
+}
+ #flexSections {
+        align-items: center;
 }
 /* Display social media icons in a row */
 #socialMedia {
