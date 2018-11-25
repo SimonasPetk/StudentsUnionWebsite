@@ -1,3 +1,4 @@
+/*--------------Written By Simonas Petkevicius------------*/
 /*  code for map is used from: https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple-max
 	The code is sligthly edited to fit our needs.
 	It is licensed over Apache License 2.0 (https://www.apache.org/licenses/LICENSE-2.0)*/
