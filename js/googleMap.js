@@ -1,8 +1,8 @@
-/* 
-	code for map is used from: https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple-max
+/*  code for map is used from: https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple-max
 	The code is sligthly edited to fit our needs.
-	It is licensed over Apache License 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
-	Initialize and add the map */
+	It is licensed over Apache License 2.0 (https://www.apache.org/licenses/LICENSE-2.0)*/
+
+/* Initialize and add the map */
 function initMap() {
     // The location of Sheffield Student's union
     var studentsUnion = {lat: 53.38072, lng: -1.4871329999999716};

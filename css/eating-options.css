@@ -12,13 +12,13 @@
     margin: 0;
 }
 /*Background color and font color*/
- #wrapperEatingOptions {
+#wrapperEatingOptions {
     color: Black;
     background-color: #daecf2;
 }
 /*de-styling Links in the page*/
 /*Catchy tagling*/
- #slogan {
+#slogan {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -27,7 +27,7 @@
     font-size: 2em;
 }
 /*styles for heart icon*/
- #heart {
+#heart {
     display: block;
     margin: auto;
     width: 150px;
@@ -35,11 +35,11 @@
     transition: transform .3s ease;
 }
 /*Transition effect for heart*/
- #heart:hover {
+#heart:hover {
     transform: scale(1.1);
 }
 /*Check out tag*/
- #checkOut {
+#checkOut {
     display: flex;
     font-weight: normal;
     flex-direction: column;
@@ -58,14 +58,14 @@
 }
 
 /*Setting style for eating options*/
- .eatImages {
+.eatImages {
     display: flex;
     margin: 10% auto 0 auto;
     width: 200px;
     transition: transform .3s;
 }
 /*Transition for eating options images*/
- .eatImages:hover {
+.eatImages:hover {
     transform: scale(1.1);
 }
 .options{
@@ -73,7 +73,7 @@
     flex-direction: column;
 }
 /*Eating options info*/
- #eatingOptions p {
+#eatingOptions p {
     justify-content: center;
     text-align: center;
     font-size: 1.13em;
@@ -82,6 +82,6 @@
 }
 
 /*for twitter @links*/
- #eatingOptions a:hover {
+#eatingOptions a:hover {
     color: #9c9c9c;
 }

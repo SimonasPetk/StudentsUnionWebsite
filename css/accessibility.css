@@ -3,7 +3,7 @@
     src: url(../fonts/comfortaa.regular.ttf);
 }
 /*Applying font to the whole page*/
- body, html {
+body, html {
     font-family: "Comfortaa", sans-serif;
     height: 100%;
     margin: 0;

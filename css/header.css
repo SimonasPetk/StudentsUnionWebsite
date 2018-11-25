@@ -12,25 +12,25 @@ nav a:hover {
     margin: auto;
 }
 
- #logo {
+#logo {
     display: block;
     width: 280px;
     margin: auto;
 }
- nav {
+nav {
     display: none;
 }
- #hamburger {
+#hamburger {
     position: absolute;
     width: 35px;
     padding: 40px 10% 55px 5%;
 }
- .navMobDropdown {
+.navMobDropdown {
     display: flex;
     flex-direction: row;
     position: relative;
 }
- .mobDropdown-content {
+.mobDropdown-content {
     display: none;
     position: absolute;
     width: 100vw;
@@ -38,7 +38,7 @@ nav a:hover {
     font-size: 150%;
     z-index: 2;
 }
- .mobDropdown-content a {
+.mobDropdown-content a {
     width: 100vw;
     text-decoration: none;
     border-bottom: 2px solid #9c9c9c;
@@ -50,9 +50,9 @@ nav a:hover {
     justify-content: center;
     color: black;
 }
- .navMobDropdown:hover .mobDropdown-content {
+.navMobDropdown:hover .mobDropdown-content {
     display: block;
 }
- .mobDropdown-content a:hover {
+.mobDropdown-content a:hover {
     background-color: #9c9c9c;
 }

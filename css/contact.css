@@ -1,5 +1,5 @@
 /* Applying font to the whole page */
- @font-face {
+@font-face {
     font-family: Comfortaa;
     src: url(../fonts/comfortaa.regular.ttf);
 }
@@ -50,7 +50,7 @@ body, html {
     padding: 2% 9%;
 }
 /* Info about us in flex box */
- #contactUs {
+#contactUs {
     display: flex;
     flex-direction: column;
     justify-content: center;
