@@ -37,7 +37,7 @@ body, html {
 #wrapperFeatures .suFeatures {
     display: flex;
     flex-direction: column;
-    padding: 3%;
+    padding: 8%;
     font-size: 1.13em;
 }
 /* creates fixed size images that all of them would be consistent */
