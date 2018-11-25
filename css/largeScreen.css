@@ -1,3 +1,5 @@
+/*Written By Manas Sarpatwar*/
+/*Styles for desktop*/
 @media screen and (min-width: 1000px){
     /*Background is higher quality*/
     .bg{
@@ -190,7 +192,7 @@
     #supportOptions p {
         padding: 0 20%;
     }
-    /* footer */
+    /* footer written by Simonas Petkevicius */
     #flexSections {
         align-items: flex-start;
     }   

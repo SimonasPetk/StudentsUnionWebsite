@@ -1,4 +1,5 @@
 /*Setting the font*/
+/*Styles for other places and support*/
 @font-face {
     font-family: Comfortaa;
     src: url(../fonts/comfortaa.regular.ttf);
@@ -53,7 +54,7 @@ body, html {
 .featuresImages:hover {
     transform: scale(1.1);
 }
-/*-------------Setting font size--------------*/
+/*-------------Setting font size-----Written By Manas Sarpatwar-------*/
 #suSocieties{
     font-size: 1.13em;
 }

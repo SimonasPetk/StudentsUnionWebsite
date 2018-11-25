@@ -1,3 +1,5 @@
+/*-------------Written By Manas Sarpatwar------------*/
+/*Styles for home*/
 @font-face {
     font-family: Comfortaa;
     src: url(../fonts/comfortaa.regular.ttf);
@@ -75,6 +77,8 @@ body, html {
     font-size: 3em;
     padding: 12% 2% 5% 2%;
 }
+/*-------------------------------------------*/
+/*Written By Simonas Petkevicius*/
 /*Creating flex box for displaying icons*/
 #featuredIcons {
     display: flex;
@@ -111,7 +115,8 @@ body, html {
     padding: 2% 0 0 0;
     text-align: center;
 }
-/*If JavaScript is off*/
+
+/*If JavaScript is off Written by Manas Sarpatwar*/
 #noscript {
     background-image: url("../images/map.png");
     width: 100%;
@@ -135,7 +140,8 @@ body, html {
     color: black;
     display: inline-block;
 }
-/*------------------*/
+/*------------------------------------*/
+
 #map {
     height: 400px;
     width: 96vw;

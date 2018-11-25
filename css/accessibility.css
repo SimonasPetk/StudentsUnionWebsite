@@ -1,3 +1,5 @@
+/*-------------Written By Manas Sarpatwar------------*/
+/*Styles for accessibility*/
 @font-face {
     font-family: Comfortaa;
     src: url(../fonts/comfortaa.regular.ttf);
@@ -11,7 +13,8 @@ body, html {
     scroll-behavior: smooth;
 }
 
-/* flex grow the wrapper that it would expand the whole page and the footer would appear in the bottom */
+/*---flex grow the wrapper that it would expand the whole page and the footer would appear in the bottom
+---------Written By Simonas Petkevicius---------*/
 #wrapperAccessibility {
     padding: 0 2%;
     background-color: #daecf2;
@@ -34,6 +37,8 @@ h1 {
 ul li {
     padding: 1%;
 }
+
+/*--------------Written By Simonas Petkevicius------------*/
 /* that the content would not shrink if it is bigger than screen */
 footer, #statement, h1, #footerBottom {
     flex-shrink: 0;
