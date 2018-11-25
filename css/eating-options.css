@@ -49,8 +49,12 @@
     font-size: 2em;
 }
 
+#eatingOptions{
+    padding: 0 3%;
+}
+
 #eatingOptions .eatLink {
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
 /*Setting style for eating options*/
@@ -64,28 +68,19 @@
  .eatImages:hover {
     transform: scale(1.1);
 }
-/*Eating options info*/
- #eatingOptions p {
+.options{
     display: flex;
     flex-direction: column;
+}
+/*Eating options info*/
+ #eatingOptions p {
     justify-content: center;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.13em;
     padding: 2% 5%;
     margin: 0;
 }
-/*Follow on twitter button*/
- .follow {
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0% 1%;
-    text-align: center;
-    font-size: 1em;
-    width: 225px;
-    color: black;
-    margin: auto;
-}
+
 /*for twitter @links*/
  #eatingOptions a:hover {
     color: #9c9c9c;

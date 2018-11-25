@@ -15,6 +15,10 @@
     display: flex;
     flex-direction: column;
 }
+
+#wrapperFeatures a:hover{
+     color: #9c9c9c;
+}
 /* Makes names bigger */
 .featureLink {
     font-size: 1.3em;
@@ -34,7 +38,7 @@
     display: flex;
     flex-direction: column;
     padding: 3%;
-    font-size: 1.4em;
+    font-size: 1.13em;
 }
 /* creates fixed size images that all of them would be consistent */
 .featuresImages {
@@ -49,31 +53,25 @@
 .featuresImages:hover {
     transform: scale(1.1);
 }
-#suSocieties p{
-    font-size: 1.4em;
-    padding: 0 5%;
+/*-------------Setting font size--------------*/
+#suSocieties{
+    font-size: 1.13em;
 }
 #suSocietiesHeading h2{
     font-size: 1em;
 }
 #studyPlaces ul{
     list-style: none;
-    font-size: 1.4em;
+    font-size: 1.13em;
     text-align: center;
     padding: 0 5%;
 }
 #studyPlaces p{
-    font-size: 1.4em;
+    font-size: 1.13em;
     padding: 0 5%;
 }
-#suSocieties{
-    font-size:1em;
-}
-#suSocietiesHeading{
-    font-size: 1.6em;
-}
 #supportOptions p {
-    font-size: 1.4em;
+    font-size: 1.13em;
     padding: 0 5%;
 }
 #supportSlogan{
@@ -82,7 +80,7 @@
 .title{
     font-size: 2em;
     font-weight: normal;
-     margin: 0;
+    margin: 0;
 }
 #tagline {
     text-align: center;
