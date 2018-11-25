@@ -38,9 +38,8 @@ footer h5, footer p {
     justify-content: center;
     margin: 3px 0;
 }
-/* Styles all divs except sitemap. it is because the sitemap width
-   might be bigger because of the two flexboxes it contains*/
-#flexSections div:not(#sitemap) {
+/* Styles all divs except footerFourth and sitemap*/
+#flexSections div:not(#footerFourth):not(#sitemap) {
     width: 260px;
     margin: 5px;
     text-align: center;
@@ -56,7 +55,14 @@ footer h5, footer p {
 #footerFourth h5{
     margin-bottom: 0px;
 }
-/* display sitemap content in columns */
+#sitemap {
+    display: flex;
+    flex-direction: row;
+    width: 260px;
+    margin: 0 5px 5px 5px;
+    text-align: center;
+}
+/* display sitemap content in two columns */
 .sitemapColumn {
     display: flex;
     flex-direction: column;

@@ -1,16 +1,16 @@
 @media screen and (min-width: 1000px){
     /*Background is higher quality*/
     .bg{
-    width:100%;
-    height: 95vh; 
-    min-height: 700px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("../images/Home-Featured.jpg");
-    display: grid;
-    align-items: center;
-    margin: auto;
+        width:100%;
+        height: 95vh; 
+        min-height: 700px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../images/Home-Featured.jpg");
+        display: grid;
+        align-items: center;
+        margin: auto;
     }
 
     nav{
@@ -37,23 +37,23 @@
     
     /*Inline horizontal nav*/
     .navDropdown{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    margin: 2px 0 0 37%;
-    padding: 20px 150px 25px 0;
-    font-size: 1em;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        margin: 2px 0 0 37%;
+        padding: 20px 150px 25px 0;
+        font-size: 1em;
     }
     
     .dropdown-content{
-    display: none;
-	position: absolute;
-    background-color: #e6e6e6;
-	width: 100vw;
-	height: 90px;    
-    top: 70px;  
-	left: -68.5vw;
-    z-index: 1;
+        display: none;
+	    position: absolute;
+        background-color: #e6e6e6;
+	    width: 100vw;
+	    height: 90px;    
+        top: 70px;  
+	    left: -68.5vw;
+        z-index: 1;
     }
     
     .dropdown-content a{
@@ -118,25 +118,22 @@
         margin: 10px auto;
     }
 
-    #sitemap {
-        flex-direction: row;
-    }
 	/*------------Eating options-------------*/
 	 #slogan{
-    width: 100vw;
-     display: flex;
-     flex-direction: row;
-     text-align: center;
-	 justify-content: center;
-	 padding: 2% 0 0 0;
-     font-size: 3em;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+	    justify-content: center;
+	    padding: 2% 0 0 0;
+        font-size: 3em;
 	}
 	
 	#heart{
-    display: block;
-   	margin: 0 5% 0 5%;
-    width: 200px;
-    height:200px;
+        display: block;
+   	    margin: 0 5% 0 5%;
+        width: 200px;
+        height:200px;
 	}
     
    .eatImages{
@@ -156,7 +153,7 @@
     }
     
     .about{
-    width: 40vw;
+        width: 40vw;
     }
     
     /*----------Accessibility-----------------*/
@@ -179,13 +176,13 @@
     }
     
     #wrapperFeatures .suFeatures p{
-       margin: 0 5%;
+        margin: 0 5%;
     }
     #wrapperFeatures .heading {
         font-size: 3em;
     }
     #suSocieties p{
-     padding: 0 20%;   
+        padding: 0 20%;   
     }
     #studyPlaces ul{
         padding: 0 20%;

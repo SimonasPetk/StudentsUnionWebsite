@@ -78,16 +78,22 @@
  #featuredIcons {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    flex: 2 0 auto;
+    vertical-align: top;
     justify-content: center;
     text-align: center;
     height: 100%;
-    flex-wrap: wrap;
     margin: 10px 2%;
 }
  #featuredIcons> div {
     width: 50%;
     height: 50%;
     margin: auto;
+}
+#featuredIcons p {
+    margin-bottom: 0;
+    padding: auto;
 }
  .centre {
     display: block;

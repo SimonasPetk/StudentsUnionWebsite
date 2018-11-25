@@ -21,5 +21,8 @@
         width: 50vw;
         font-size: 5vw;
     }
-    
+    /* footer */
+    #sitemap {
+        flex-direction: column;
+    }
 }
