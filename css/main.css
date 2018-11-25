@@ -119,11 +119,16 @@ body, html {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin: -11px 0 0 0;
     border-radius: 20px;
 }
 #noscript span {
     padding: 0 2%;
+}
+#noscript p {
+    position: absolute;
+    right: 35px;
+    width: 50vw;
+    background-color: white;
 }
 #noscript a {
     text-decoration: none;

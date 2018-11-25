@@ -118,6 +118,9 @@
         margin: 10px auto;
     }
 
+    #noscript p{
+        width: 20vw; 
+    }
 	/*------------Eating options-------------*/
 	#slogan{
         width: 100vw;
@@ -169,6 +172,7 @@
     /* Changing the direction */
     #wrapperFeatures .suFeatures{
         flex-direction: row;
+        padding: 3%;
     }
     
     #wrapperFeatures .suFeatures p{
